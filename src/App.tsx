@@ -13,7 +13,7 @@ import { PerformancesID } from "./pages/PerformancesID";
 function App() {
  return (
   <>
-   <Router basename="/">
+   <Router>
     <Routes>
      <Route
       path="/"

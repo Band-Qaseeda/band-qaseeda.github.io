@@ -1,7 +1,7 @@
 {
-  "homepage":  "https://band-qaseeda.github.io/",
   "name": "qaseeda-band",
-  "private": false,
+  "homepage":  "https://band-qaseeda.github.io/",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
