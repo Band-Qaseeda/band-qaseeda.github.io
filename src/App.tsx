@@ -13,7 +13,7 @@ import { PerformancesID } from "./pages/PerformancesID";
 function App() {
  return (
   <>
-   <Router>
+   <Router basename="/band-qaseeda.github.io">
     <Routes>
      <Route
       path="/"
