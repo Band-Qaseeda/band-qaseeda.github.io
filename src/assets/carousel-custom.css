@@ -1,0 +1,17 @@
+.slick-next:before,
+.slick-prev:before {
+ font-size: 27px !important;
+}
+.slick-dots li button:before {
+ font-size: 8px !important;
+ color: #fff !important;
+}
+.slick-dots li.slick-active button:before {
+ color: #fff !important;
+}
+.slick-list {
+ margin: 0 -7px;
+}
+.slick-list .slick-slide > div {
+ padding: 0 10px;
+}
