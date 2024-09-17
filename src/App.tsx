@@ -70,7 +70,7 @@ function App() {
           ></Route>
 
           <Route
-            path="/about-us/our-team"
+            path="/about-us/team"
             element={
               <Layout>
                 Our Team

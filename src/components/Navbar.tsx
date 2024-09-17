@@ -18,6 +18,7 @@ export default function Navbar({
   <>
    <NavLink
     to="/"
+    end
     className={navbarLinkClass}
     onClick={() => setOpenMenu(false)}
    >
@@ -25,13 +26,23 @@ export default function Navbar({
    </NavLink>
    <NavLink
     to="/about-us"
+    end
     className={navbarLinkClass}
     onClick={() => setOpenMenu(false)}
    >
     <li>About Us</li>
    </NavLink>
    <NavLink
+    to="/about-us/team"
+    end
+    className={navbarLinkClass}
+    onClick={() => setOpenMenu(false)}
+   >
+    <li>Our Team</li>
+   </NavLink>
+   <NavLink
     to="/showcase"
+    end
     className={navbarLinkClass}
     onClick={() => setOpenMenu(false)}
    >
@@ -39,6 +50,7 @@ export default function Navbar({
    </NavLink>
    <NavLink
     to="/events"
+    end
     className={navbarLinkClass}
     onClick={() => setOpenMenu(false)}
    >
@@ -46,6 +58,7 @@ export default function Navbar({
    </NavLink>
    <NavLink
     to="/gallery"
+    end
     className={navbarLinkClass}
     onClick={() => setOpenMenu(false)}
    >
@@ -53,6 +66,7 @@ export default function Navbar({
    </NavLink>
    <NavLink
     to="/contact-us"
+    end
     className={navbarLinkClass}
     onClick={() => setOpenMenu(false)}
    >
