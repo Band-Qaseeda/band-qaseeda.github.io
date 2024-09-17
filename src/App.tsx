@@ -71,11 +71,12 @@ function App() {
 
           <Route
             path="/about-us/team"
-            element={
-              <Layout>
-                Our Team
-              </Layout>
-            }
+            element={<Layout>Our Team</Layout>}
+          ></Route>
+
+          <Route
+            path="/about-us/team/:name"
+            element={<Layout>Our Team</Layout>}
           ></Route>
 
           <Route

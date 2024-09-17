@@ -30,8 +30,8 @@ export default function Home() {
         />
       </Helmet>
 
-      <div className="w-full max-w-7xl mx-auto">
-        <div className="md:h-[80vh] flex items-center justify-center relative">
+      <div className="w-full max-w-7xl mx-auto p-8">
+        <div className="h-fit md:h-[80vh] flex items-center justify-center relative">
           <div className="absolute top-20 left-20 animate-pulse hidden md:block">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function Home() {
             </svg>
           </div>
 
-          <div className="py-[8rem] md:py-0 relative flex flex-col justify-center text-center w-full h-full bg-neutral/50">
+          <div className="py-[2.5rem] md:py-0 relative flex flex-col justify-center text-center w-full h-full bg-neutral/50">
             <div>
               <div className="relative z-10 flex flex-col items-center px-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmserif font-bold max-w-3xl drop-shadow">
@@ -68,10 +68,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div className="my-8 w-full">
-          <div className="w-full h-full flex justify-between items-center">
-            <div className="px-4 py-12 sm:px-12 lg:px-12 lg:py-24">
+      </div>
+      <div className="w-full bg-primary/5 py-4">
+        <div className="my-8 w-full max-w-7xl mx-auto p-8">
+          <div className="w-full h-full flex justify-between items-center gap-4 md:gap-8">
+            <div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
                 Who are we?
               </h1>
@@ -89,19 +90,19 @@ export default function Home() {
               <img
                 src="/images/53342195.jpg"
                 alt="Qawwali"
-                className="w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover"
+                className="w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover rounded-lg"
               />
             </div>
           </div>
-          <div className="mt-8 w-full h-full flex justify-between items-center">
+          <div className="mt-20 md:mt-12 w-full h-full flex justify-between items-center gap-4 md:gap-8">
             <div className="hidden md:block">
               <img
                 src="/images/455886477.jpg"
                 alt="Qawwali"
-                className="w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover"
+                className="w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover rounded-lg"
               />
             </div>
-            <div className="px-4 py-12 sm:px-12 lg:px-12 lg:py-24">
+            <div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
                 Our Showcase
               </h1>
@@ -117,9 +118,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="px-4 lg:px-8">
-          <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mt-12 md:mt-[100px] mb-8">
+      <div className="w-full max-w-7xl mx-auto p-8 pt-0">
+        <div className="mt-16 md:mt-0">
+          <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-dmserif font-bold drop-shadow mt-12 md:mt-[100px] mb-8">
             Discography
           </h1>
           <div className="relative my-8 w-full rounded-[1.375rem] lg:rounded-[2.375rem] bg-cover bg-[url('/images/4557126.jpg')] bg-center">
@@ -194,7 +197,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="my-8 w-full p-8 lg:py-12">
+          <div className="my-8 w-full py-8 lg:py-12">
             <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
               Upcoming Events
             </h1>

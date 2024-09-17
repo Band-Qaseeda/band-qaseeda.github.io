@@ -98,7 +98,7 @@ export default function Navbar({
             </Link>
           </div>
           <div className="_right flex items-center">
-            <ul className="hidden lg:flex text-md font-medium space-x-8 uppercase">
+            <ul className="hidden lg:flex text-md font-medium space-x-8">
               <NavLinks />
             </ul>
             <button
@@ -125,7 +125,7 @@ export default function Navbar({
         </div>
         <div className="lg:hidden w-full" hidden={!openMenu}>
           <div className="mt-4 px-5 w-full max-w-7xl mx-auto flex justify-between items-center">
-            <ul className="flex flex-col gap-3 text-md font-medium uppercase">
+            <ul className="flex flex-col gap-3 text-md font-medium">
               <NavLinks />
             </ul>
           </div>

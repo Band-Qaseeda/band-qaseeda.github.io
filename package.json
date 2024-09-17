@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "check": "tsc",
-    "deploy": "npm run build && gh-pages -d dist --cname www.qaseeda.org"
+    "deploy": "npm run build && gh-pages -d dist --cname www.qaseeda.org",
+    "publish": "gh-pages -d dist --cname www.qaseeda.org"
   },
   "dependencies": {
     "react": "^18.2.0",

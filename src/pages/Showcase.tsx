@@ -4,8 +4,8 @@ import showcase from "../utils/showcase.json";
 export default function Showcase() {
   return (
     <>
-      <div className="w-full max-w-7xl mx-auto">
-        <h1 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-dmserif font-bold drop-shadow mb-8">
+      <div className="w-full max-w-7xl mx-auto p-8">
+        <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
           Showcase
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
