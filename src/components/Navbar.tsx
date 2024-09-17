@@ -3,139 +3,134 @@ import navbarEffect from "../utils/navbarEffect";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar({
- openMenu,
- setOpenMenu,
+  openMenu,
+  setOpenMenu,
 }: {
- openMenu: boolean;
- setOpenMenu: React.Dispatch<React.SetStateAction<boolean>>;
+  openMenu: boolean;
+  setOpenMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
- const menuButton = useRef<HTMLButtonElement | null>(null);
+  const menuButton = useRef<HTMLButtonElement | null>(null);
 
- const navbarLinkClass = ({ isActive }: { isActive: boolean }) =>
-  "pb-0.5 hover:text-primary/80 transition-all duration-100 " +
-  (isActive && "border-b-2 border-primary/50");
- const NavLinks = () => (
-  <>
-   <NavLink
-    to="/"
-    end
-    className={navbarLinkClass}
-    onClick={() => setOpenMenu(false)}
-   >
-    <li>Home</li>
-   </NavLink>
-   <NavLink
-    to="/about-us"
-    end
-    className={navbarLinkClass}
-    onClick={() => setOpenMenu(false)}
-   >
-    <li>About Us</li>
-   </NavLink>
-   <NavLink
-    to="/about-us/team"
-    end
-    className={navbarLinkClass}
-    onClick={() => setOpenMenu(false)}
-   >
-    <li>Our Team</li>
-   </NavLink>
-   <NavLink
-    to="/showcase"
-    end
-    className={navbarLinkClass}
-    onClick={() => setOpenMenu(false)}
-   >
-    <li>Showcase</li>
-   </NavLink>
-   <NavLink
-    to="/events"
-    end
-    className={navbarLinkClass}
-    onClick={() => setOpenMenu(false)}
-   >
-    <li>Events</li>
-   </NavLink>
-   <NavLink
-    to="/gallery"
-    end
-    className={navbarLinkClass}
-    onClick={() => setOpenMenu(false)}
-   >
-    <li>Gallery</li>
-   </NavLink>
-   <NavLink
-    to="/contact-us"
-    end
-    className={navbarLinkClass}
-    onClick={() => setOpenMenu(false)}
-   >
-    <li>Contact Us</li>
-   </NavLink>
-  </>
- );
-
- useEffect(() => {
-  navbarEffect();
- }, []);
-
- useEffect(() => {
-  if (menuButton.current) {
-   if (openMenu) {
-    menuButton.current.classList.add("bg-primary/30");
-   } else {
-    menuButton.current.classList.remove("bg-primary/30");
-   }
-  }
- }, [openMenu]);
-
- return (
-  <>
-   <nav className="_navbar sticky top-0 left-0 bg-neutral z-50 py-6 md:py-8 transition-all duration-100 border-b-2 border-transparent">
-    <div className="px-4 w-full max-w-7xl mx-auto flex justify-between items-center">
-     <div className="_left">
-      <Link to="/">
-       <img
-        src="/images/logo.png"
-        alt="Qaseeda"
-        className="max-h-[35px] md:w-[120px] text-3xl font-medium object-cover"
-       />
-      </Link>
-     </div>
-     <div className="_right flex items-center">
-      <ul className="hidden lg:flex text-md font-medium space-x-8 uppercase">
-       <NavLinks />
-      </ul>
-      <button
-       ref={menuButton}
-       className="lg:hidden p-1.5 rounded-full hover:bg-primary/20 active:scale-90 active:bg-primary/25"
-       onClick={() => setOpenMenu(!openMenu)}
+  const navbarLinkClass = ({ isActive }: { isActive: boolean }) =>
+    "pb-0.5 hover:text-primary/80 transition-all duration-100 " +
+    (isActive && "border-b-2 border-primary/50");
+  const NavLinks = () => (
+    <>
+      <NavLink
+        to="/"
+        className={navbarLinkClass}
+        onClick={() => setOpenMenu(false)}
       >
-       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="size-6"
-       >
-        <path
-         strokeLinecap="round"
-         strokeLinejoin="round"
-         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-        />
-       </svg>
-      </button>
-     </div>
-    </div>
-    <div className="lg:hidden w-full" hidden={!openMenu}>
-     <div className="mt-4 px-5 w-full max-w-7xl mx-auto flex justify-between items-center">
-      <ul className="flex flex-col gap-3 text-md font-medium uppercase">
-       <NavLinks />
-      </ul>
-     </div>
-    </div>
-   </nav>
-  </>
- );
+        <li>Home</li>
+      </NavLink>
+      <NavLink
+        to="/about-us"
+        end
+        className={navbarLinkClass}
+        onClick={() => setOpenMenu(false)}
+      >
+        <li>About Us</li>
+      </NavLink>
+      <NavLink
+        to="/about-us/team"
+        end
+        className={navbarLinkClass}
+        onClick={() => setOpenMenu(false)}
+      >
+        <li>Our Team</li>
+      </NavLink>
+      <NavLink
+        to="/showcase"
+        className={navbarLinkClass}
+        onClick={() => setOpenMenu(false)}
+      >
+        <li>Showcase</li>
+      </NavLink>
+      <NavLink
+        to="/events"
+        className={navbarLinkClass}
+        onClick={() => setOpenMenu(false)}
+      >
+        <li>Events</li>
+      </NavLink>
+      <NavLink
+        to="/gallery"
+        className={navbarLinkClass}
+        onClick={() => setOpenMenu(false)}
+      >
+        <li>Gallery</li>
+      </NavLink>
+      <NavLink
+        to="/contact-us"
+        className={navbarLinkClass}
+        onClick={() => setOpenMenu(false)}
+      >
+        <li>Contact Us</li>
+      </NavLink>
+    </>
+  );
+
+  useEffect(() => {
+    navbarEffect();
+  }, []);
+
+  useEffect(() => {
+    if (menuButton.current) {
+      if (openMenu) {
+        menuButton.current.classList.add("bg-primary/30");
+      } else {
+        menuButton.current.classList.remove("bg-primary/30");
+      }
+    }
+  }, [openMenu]);
+
+  return (
+    <>
+      <nav className="_navbar sticky top-0 left-0 bg-neutral z-50 py-6 md:py-8 transition-all duration-100 border-b-2 border-transparent">
+        <div className="px-4 w-full max-w-7xl mx-auto flex justify-between items-center">
+          <div className="_left">
+            <Link to="/">
+              <img
+                src="/images/logo.png"
+                alt="Qaseeda"
+                className="max-h-[35px] md:w-[120px] text-3xl font-medium object-cover"
+              />
+            </Link>
+          </div>
+          <div className="_right flex items-center">
+            <ul className="hidden lg:flex text-md font-medium space-x-8 uppercase">
+              <NavLinks />
+            </ul>
+            <button
+              ref={menuButton}
+              className="lg:hidden p-1.5 rounded-full hover:bg-primary/20 active:scale-90 active:bg-primary/25"
+              onClick={() => setOpenMenu(!openMenu)}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div className="lg:hidden w-full" hidden={!openMenu}>
+          <div className="mt-4 px-5 w-full max-w-7xl mx-auto flex justify-between items-center">
+            <ul className="flex flex-col gap-3 text-md font-medium uppercase">
+              <NavLinks />
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </>
+  );
 }

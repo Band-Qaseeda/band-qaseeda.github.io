@@ -1,22 +1,11 @@
 import { Link, useParams } from "react-router-dom";
 import showcase from "../utils/showcase.json";
-import Slider from "react-slick";
 import { Helmet } from "react-helmet";
 import "../assets/carousel-custom.css";
-import { useEffect, useState } from "react";
 
 export const ShowcaseID = () => {
   const { id } = useParams<{ id: string }>();
   const prf = showcase.find((p) => String(p.id) === id);
-  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
   return (
     <>
       <Helmet>
@@ -43,6 +32,7 @@ export const ShowcaseID = () => {
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
+                strokeWidth={2}
                 stroke="currentColor"
               >
                 <path
@@ -82,13 +72,21 @@ export const ShowcaseID = () => {
                   >
                     <div>
                       <img
-                        src={`https://logo.clearbit.com/${new URL(e.link).hostname}`}
+                        src={
+                          e && "logo" in e && typeof e.logo === "string"
+                            ? e.logo
+                            : `https://logo.clearbit.com/${
+                                new URL(e.link).hostname
+                              }`
+                        }
                         alt="logo"
-                        className="w-[100px] h-[100px] object-cover bg-primary/20 rounded-md"
+                        className="w-[100px] h-[100px] object-contain bg-primary rounded-md"
                       />
                     </div>
                     <div className="text-center md:text-left">
-                      <p className="text-sm md:text-md lg:text-lg font-medium">{e.source}</p>
+                      <p className="text-sm md:text-md lg:text-lg font-medium">
+                        {e.source}
+                      </p>
                       <p className="text-sm md:text-md mt-2 text-gray-500">
                         {e.date}
                       </p>
@@ -121,10 +119,9 @@ export const ShowcaseID = () => {
             )
           ) : (
             <div
-              className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8"
-              style={{ height: "500px" }}
+              className="w-full bg-gray-800 text-primary rounded-md p-4 lg:p-8"
             >
-              <h1 className="text-md sm:text-xl md:text-2xl font-medium">
+              <h1 className="text-md sm:text-xl font-medium">
                 No press release available.
               </h1>
             </div>

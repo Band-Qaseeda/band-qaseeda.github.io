@@ -59,6 +59,11 @@ export default function Home() {
                   Discover a journey through the profound rhythms and melodies
                   of Qawwali and Najrul Geeti.
                 </p>
+                <Link to="/about-us">
+                  <button className="mt-8 bg-accent text-primary py-2 px-4 md:py-3 md:px-5 hover:bg-accent/80 transition-all duration-100">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -74,9 +79,9 @@ export default function Home() {
                 We are a group of musicians who are dedicated to preserving and
                 promoting the rich musical heritage of Qawwali and Najrul Geeti.
               </p>
-              <Link to="/about-us">
+              <Link to="/about-us/team">
                 <button className="mt-8 bg-accent text-primary py-2 px-4 md:py-3 md:px-5 hover:bg-accent/80 transition-all duration-100">
-                  Learn More
+                  Learn about Our Team
                 </button>
               </Link>
             </div>
