@@ -17,8 +17,7 @@ export default {
    gray: colors.gray,
   },
   fontFamily: {
-   sans: ["Inter", ...defaultTheme.fontFamily.sans] /* Default */,
-   dosis: ["Dosis", ...defaultTheme.fontFamily.sans] /* Links */,
+   sans: ["Poppins", ...defaultTheme.fontFamily.sans] /* Default */,
    dmserif: [
     "DM Serif Display",
     ...defaultTheme.fontFamily.serif,

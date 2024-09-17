@@ -1,0 +1,219 @@
+[
+    {
+        "id": 1,
+        "title": "1st Program of 2024",
+        "date": "16 August 2024",
+        "organizer": "ইনকিলাব মঞ্চ",
+        "place": "Shahbag, Dhaka",
+        "cover": "1723818558.jpg",
+        "pressReleases": [
+            {
+                "video": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fdbcnews.tv%2Fvideos%2F1235883377604419%2F&show_text=false&width=476&t=0"
+            },
+            {
+                "video": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fntvdigital%2Fvideos%2F502226589062075%2F&show_text=false&width=560&t=0"
+            },
+            {
+                "video": "https://www.youtube.com/embed/dXF58EslKbY?si=wWhndutlNGVndYVn"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শাহবাগে গণসেজদা ও দ্রোহের গান",
+                "link": "https://dainikamadershomoy.com/details/01915bc898cc",
+                "cover": "https://dainikamadershomoy.com/_cdn/images/large/2024/08/16/news_1723821757889.webp",
+                "source": "দৈনিক আমাদের সময়",
+                "date": "১৬ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শাহবাগে দ্রোহের গান ও গণসেজদা",
+                "link": "https://www.dhakapost.com/campus/299525",
+                "cover": "https://cdn.dhakapost.com/media/imgAll/BG/2024August/dhaka-uni-20240816201419.jpg",
+                "source": "ঢাকা পোস্ট",
+                "date": "১৬ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শাহবাগে দ্রোহের গান ও গণসেজদা",
+                "link": "https://bangla.dhakatribune.com/bangladesh/83906/%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%A4%E0%A6%A8%E0%A7%87-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A7%87-%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B9%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%A8-%E0%A6%93-%E0%A6%97%E0%A6%A3%E0%A6%B8%E0%A7%87%E0%A6%9C%E0%A6%A6%E0%A6%BE",
+                "cover": "https://bcdn.dhakatribune.net/contents/cache/images/1100x618x1/uploads/media/2024/08/16/Sahbag-ba42e191c83399ac1a2579b16bd4d7c3.jpg?jadewits_media_id=11267",
+                "source": "ঢাকা ট্রিবিউন",
+                "date": "১৬ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শাহবাগে দ্রোহের গান ও গণসেজদা",
+                "link": "https://www.bd24live.com/bangla/737604",
+                "cover": "https://www.bd24live.com/bangla/public/uploads/2024-08/Untitled_original_1723818322.jpg",
+                "source": "বিডি ২৪ লাইভ",
+                "date": "১৬ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শাহবাগে গণ সেজদা ও দ্রোহের গান",
+                "link": "https://www.ajkerpatrika.com/351497/%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%A4%E0%A6%A8%E0%A7%87-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A6%A3-%E0%A6%B8%E0%A7%87%E0%A6%9C%E0%A6%A6%E0%A6%BE-%E0%A6%93-%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B9%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%A8",
+                "cover": "https://cdn.ajkerpatrica.net/contents/cache/images/720x0x1/uploads/media/2024/08/16/7c2ace70987610956277259e8f1d5260-66bf7f1f40e98.jpg",
+                "source": "আজকের পত্রিকা",
+                "date": "১৬ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শাহবাগে গণ সেজদা",
+                "link": "https://thedailycampus.com/universities/150352/%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%A4%E0%A6%A8%E0%A7%87-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A6%A3-%E0%A6%B8%E0%A7%87%E0%A6%9C%E0%A6%A6%E0%A6%BE-",
+                "cover": "https://cdn.thedailycampus.com/resources/img/article/202408/150352_194.jpg",
+                "source": "দ্য ডেইলি ক্যাম্পাস",
+                "date": "১৭ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শুকরিয়া আদায় করে ঢাকায় গণসিজদা",
+                "link": "https://www.channel786.com/bangladesh/news/8471",
+                "cover": "https://www.channel786.com/media/imgAll/2021May/Watermark-2408170343.jpg",
+                "source": "চ্যানেল ৭৮৬",
+                "date": "১৭ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শাহবাগে ইনকিলাব মঞ্চের গণসেজদা, দ্রোহের গান",
+                "link": "https://samakal.com/capital/article/251144/%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A6%95%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A6%AC-%E0%A6%AE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A6%B8%E0%A7%87%E0%A6%9C%E0%A6%A6%E0%A6%BE-%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B9%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%A8",
+                "cover": "https://samakal.com/media/imgAll/2024August/15-1723825279.jpg",
+                "source": "সমকাল",
+                "date": "১৬ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনের আনন্দে শাহবাগে ‘গণ সেজদা’",
+                "link": "https://bd-bulletin.com/details.php?id=112768",
+                "cover": "https://bd-bulletin.com/2024/08/16/bb_1723818558.jpg",
+                "source": "বিডি বুলেটিন",
+                "date": "১৬ আগস্ট ২০২৪"
+            },
+            {
+                "title": "শেখ হাসিনার পতনে শাহবাগে গণসেজদা ও দ্রোহের গান",
+                "link": "https://lastnews24.com/%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%A4%E0%A6%A8%E0%A7%87-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A7%87/",
+                "cover": "https://lastnews24.com/wp-content/uploads/2024/08/Sejda-750x430.jpg",
+                "source": "লাস্ট নিউজ ২৪",
+                "date": "১৬ আগস্ট ২০২৪"
+            }
+        ],
+        "tracks": []
+    },
+    {
+        "id": 2,
+        "title": "2nd Program of 2024",
+        "date": "17 August 2024",
+        "organizer": "ইনকিলাব মঞ্চ",
+        "place": "TSC, Dhaka University",
+        "cover": "JHgHGVgh.jpg",
+        "pressReleases": [],
+        "tracks": []
+    },
+    {
+        "id": 4,
+        "title": "4rth Program of 2024",
+        "date": "30 August 2024",
+        "organizer": "ইনকিলাব মঞ্চ",
+        "place": "Anti Terrorism Raju Sculpture, Dhaka University",
+        "cover": "d1bcc75bc7d.jpg",
+        "pressReleases": [
+            {
+                "title": "ঢাবিতে ভারতীয় আগ্রাসনের বিরুদ্ধে গণধিক্কার ও ভাঙ্গার গান",
+                "link": "https://www.dailyjanakantha.com/education/news/731518",
+                "cover": "https://www.dailyjanakantha.com/media/imgAll/2024April/poribesh-2408301327.jpg",
+                "source": "দৈনিক জনকন্ঠ",
+                "date": "৩০ আগস্ট ২০২৪"
+            },
+            {
+                "title": "ভারতের পানি আগ্রাসনের বিরুদ্ধে ঢাবিতে ‘গণধিক্কার ও ভাঙার গান’",
+                "link": "https://www.jagonews24.com/national/news/965064",
+                "cover": "https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/flood-mah-20240830181421.jpg",
+                "source": "Jagonews24",
+                "date": "৩০ আগস্ট ২০২৪"
+            },
+            {
+                "title": "ভারতের অন্যায্য বাঁধ নির্মাণের প্রতিবাদে ঢাবিতে গণধিক্কার কর্মসূচি পালন",
+                "link": "https://www.dailymessenger.net/bangla/education/news/52084",
+                "cover": "https://www.dailymessenger.net/media/imgAll/2024February/Untitled-15-2408301353.jpg",
+                "source": "The Daily Messenger",
+                "date": "৩০ আগস্ট ২০২৪"
+            },
+            {
+                "title": "ভারতীয় আগ্রাসনের বিরুদ্ধে ঢাবিতে ‘শেকল ভাঙার গান’",
+                "link": "https://www.deshrupantor.com/532772/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A7%9F-%E0%A6%86%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E2%80%98%E0%A6%B6%E0%A7%87%E0%A6%95%E0%A6%B2-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%A8%E2%80%99",
+                "cover": "https://cdn.deshrupantor.net/contents/cache/images/1100x617x1/uploads/media/2024/08/30/449368f5b3ab9f9b6344d8b5020f5c42-66d1bcc75bc7d.jpg?jadewits_media_id=60711",
+                "source": "দেশ রূপান্তর",
+                "date": "৩০ আগস্ট ২০২৪"
+            },
+            {
+                "title": "ঢাবিতে ভারতীয় আগ্রাসনের বিরুদ্ধে ‘গণধিক্কার ও ভাঙ্গার গান’",
+                "link": "https://www.dhakapost.com/campus/303029",
+                "cover": "https://cdn.dhakapost.com/media/imgAll/BG/2024August/tsc-du-20240830181229.jpg",
+                "source": "ঢাকা পোস্ট",
+                "date": "৩০ আগস্ট ২০২৪"
+            },
+            {
+                "title": "ভারতের ডম্বুর বাঁধ অভিমুখে লং মার্চের ঘোষণা",
+                "link": "https://www.kalbela.com/dainikshiksha/campus/116690",
+                "cover": "https://www.kalbela.com/assets/news_photos/2024/08/30/image_116690_1725023036.webp",
+                "source": "কালবেলা",
+                "date": "৩০ আগস্ট ২০২৪"
+            },
+            {
+                "title": "৬ সেপ্টেম্বর ডুম্বুর বাঁধ অভিমুখে ইনকিলাব মঞ্চের লংমার্চ ঘোষণা",
+                "link": "https://www.channel24bd.tv/national/article/227246/%E0%A7%AC-%E0%A6%B8%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%A1%E0%A7%81%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%81%E0%A6%A7-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A6%82%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9A",
+                "cover": "https://backoffice.channel24bd.tv/media/imgAll/2024August/34-1725025039.jpg",
+                "source": "চ্যানেল ২৪",
+                "date": "৩০ আগস্ট ২০২৪"
+            },
+            {
+                "title": "ডম্বুর বাঁধ অভিমুখে লংমার্চের ঘোষণা ইনকিলাব মঞ্চের",
+                "link": "https://bangladeshmoments.com/campus/131077/%E0%A6%A1%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%81%E0%A6%A7-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%B2%E0%A6%82%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%87%E0%A6%A8%E0%A6%95%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A6%AC-%E0%A6%AE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A7%87%E0%A6%B0",
+                "cover": "https://bangladeshmoments.com/resources/img/article/202408/w_(4)-13026.webp",
+                "source": "বাংলাদেশ মোমেন্টস",
+                "date": "৩০ আগস্ট ২০২৪"
+            }
+        ],
+        "tracks": []
+    },
+    {
+        "id": 3,
+        "title": "3rd Program of 2024",
+        "date": "30 August 2024",
+        "organizer": "বিপ্লবী সাংস্কৃতিক ঐক্য",
+        "place": "Swaparjita Swadhinata, Dhaka University",
+        "cover": "05498478.jpg",
+        "pressReleases": [],
+        "tracks": []
+    },
+    {
+        "id": 5,
+        "title": "5th Program of 2024",
+        "date": "5 September 2024",
+        "organizer": "ঢাকা কলেজ সাংস্কৃতিক ঐক্য",
+        "place": "Central Shaheed Minar, Dhaka",
+        "cover": "765gfU6.jpg",
+        "pressReleases": [],
+        "tracks": []
+    },
+    {
+        "id": 6,
+        "title": "6th Program of 2024",
+        "date": "9 September 2024",
+        "organizer": "শতাব্দী মঞ্চ",
+        "place": "Titumir College, Dhaka",
+        "cover": "940615182.jpg",
+        "pressReleases": [],
+        "tracks": []
+    },
+    {
+        "id": 7,
+        "title": "7th Program of 2024",
+        "date": "12 September 2024",
+        "organizer": "Students of East West University",
+        "place": "East West University Ground, Dhaka",
+        "cover": "IMG_9410.jpg",
+        "pressReleases": [],
+        "tracks": []
+    },
+    {
+        "id": 8,
+        "title": "8th Program of 2024",
+        "date": "13 September 2024",
+        "organizer": "বিপ্লবী মঞ্চ",
+        "place": "Central Shaheed Minar, Manikganj",
+        "cover": "5262814.jpg",
+        "pressReleases": [],
+        "tracks": []
+    }
+]

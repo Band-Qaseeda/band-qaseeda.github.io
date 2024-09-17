@@ -100,15 +100,15 @@ export default function Home() {
       </div>
       <div className="px-4 py-12 sm:px-12 lg:px-12 lg:py-24">
        <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
-        Our Performances
+        Our Showcase
        </h1>
        <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 opacity-75 max-w-xl">
         We have performed at various events and have received immense love and
         appreciation from our audience.
        </p>
-       <Link to="/performances">
+       <Link to="/showcase">
         <button className="mt-8 bg-accent text-primary py-2 px-4 md:py-3 md:px-5 hover:bg-accent/80 transition-all duration-100">
-         See Performances
+         See Showcase
         </button>
        </Link>
       </div>
