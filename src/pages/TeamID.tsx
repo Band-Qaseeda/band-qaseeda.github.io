@@ -54,9 +54,9 @@ export const TeamID = () => {
             {tm?.bio?.role}
           </p>
         </div>
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-4 bg-primary">{tm?.bio?.edu}</div>
-          <div className="md:order-first md:grid-rows-2">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="p-4 border border-primary">{tm?.bio?.edu}</div>
+          <div className="md:order-first md:col-span-2">
             <h1 className="text-xl md:text-2xl lg:text-3xl font-medium drop-shadow mt-4">
               Biography
             </h1>
