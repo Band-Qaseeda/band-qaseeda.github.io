@@ -85,13 +85,13 @@ export const ShowcaseID = () => {
                     </div>
                     <div className="text-center md:text-left">
                       <p className="text-sm md:text-md lg:text-lg font-medium">
-                        {e.source}
+                        {e?.source}
                       </p>
                       <p className="text-sm md:text-md mt-2 text-gray-500">
-                        {e.date}
+                        {e?.date}
                       </p>
                       <a
-                        href={e.link}
+                        href={e?.link}
                         target="_blank"
                         rel="noreferrer"
                         className="inline-block mt-3"

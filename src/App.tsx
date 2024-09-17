@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 /** UI */
 import Layout from "./Layout";
@@ -9,6 +14,8 @@ import Showcase from "./pages/Showcase";
 import { Events } from "./pages/Events";
 import { Gallery } from "./pages/Gallery";
 import { ShowcaseID } from "./pages/ShowcaseID";
+import { Team } from "./pages/Team";
+import { TeamID } from "./pages/TeamID";
 
 function App() {
   return (
@@ -22,7 +29,7 @@ function App() {
                 <Home />
               </Layout>
             }
-          ></Route>
+          />
 
           <Route
             path="/showcase"
@@ -31,7 +38,7 @@ function App() {
                 <Showcase />
               </Layout>
             }
-          ></Route>
+          />
 
           <Route
             path="/showcase/:id"
@@ -40,7 +47,7 @@ function App() {
                 <ShowcaseID />
               </Layout>
             }
-          ></Route>
+          />
 
           <Route
             path="/gallery"
@@ -49,7 +56,7 @@ function App() {
                 <Gallery />
               </Layout>
             }
-          ></Route>
+          />
 
           <Route
             path="/events"
@@ -58,7 +65,7 @@ function App() {
                 <Events />
               </Layout>
             }
-          ></Route>
+          />
 
           <Route
             path="/about-us"
@@ -67,17 +74,25 @@ function App() {
                 <About />
               </Layout>
             }
-          ></Route>
+          />
 
           <Route
             path="/about-us/team"
-            element={<Layout>Our Team</Layout>}
-          ></Route>
+            element={
+              <Layout>
+                <Team />
+              </Layout>
+            }
+          />
 
           <Route
-            path="/about-us/team/:name"
-            element={<Layout>Our Team</Layout>}
-          ></Route>
+            path="/biography/:prefix"
+            element={
+              <Layout>
+                <TeamID />
+              </Layout>
+            }
+          />
 
           <Route
             path="/contact-us"
@@ -86,7 +101,14 @@ function App() {
                 <Contact />
               </Layout>
             }
-          ></Route>
+          />
+
+          <Route path="/about" element={<Navigate to="/about-us" />} />
+          <Route
+            path="/about/team"
+            element={<Navigate to="/about-us/team" />}
+          />
+          <Route path="/contact" element={<Navigate to="/contact-us" />} />
         </Routes>
       </Router>
     </>

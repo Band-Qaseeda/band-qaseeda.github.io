@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Mohammed Shaheen",
+    "prefix": "Mohammed_Shaheen",
+    "bio": {
+      "role": "Founder & Artist"
+    }
+  },
+  {
+    "name": "Ahmad Ataullah Salman",
+    "prefix": "Ahmad_Ataullah_Salman",
+    "bio": {
+      "role": "Co-founder & Artist"
+    }
+  },
+  {
+    "name": "Saad Al Amin",
+    "prefix": "Saad_Al_Amin",
+    "bio": {
+      "role": "Marketing Head & Artist"
+    }
+  },
+  {
+    "name": "Nazmus Sakib",
+    "prefix": "Nazmus_Sakib",
+    "pic": "",
+    "bio": {
+      "role": "Artist",
+      "edu": "University of Dhaka",
+      "desc": "Nazmus Sakib is a student of honors in music at the University of Dhaka, specializing as a vocalist and rhythm guitarist. He primarily enjoys Sufi, Nazrul, classical, folk, and melodious songs, regardless of genre. Currently, he is working with one of the most popular bands, 'Qaseeda,' as both a vocalist and guitarist.",
+      "media": []
+    }
+  },
+  {
+    "name": "N A Junayed",
+    "prefix": "N_A_Junayed",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Umaer Ibn Zohir",
+    "prefix": "Umaer_Ibn_Zohir",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Muaz Mostafa",
+    "prefix": "Muaz_Mostafa",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Imam HR",
+    "prefix": "Imam_HR",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Md Rahamat Ullah",
+    "prefix": "Md_Rahamat_Ullah",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Sanjidul Islam Shihab",
+    "prefix": "Sanjidul_Islam_Shihab",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Asadullahil Galib",
+    "prefix": "Asadullahil_Galib",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Munawar Hasnain",
+    "prefix": "Munawar_Hasnain",
+    "bio": {
+      "role": "Artist"
+    }
+  },
+  {
+    "name": "Rajjakul Islam Robi",
+    "prefix": "Rajjakul_Islam_Robi",
+    "bio": {
+      "role": "Artist"
+    }
+  }
+]

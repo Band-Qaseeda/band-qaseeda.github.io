@@ -3,7 +3,7 @@ export const Gallery = () => {
   <div className="w-full max-w-7xl mx-auto">
    <div className="flex flex-col gap-8">
     <div className="w-full p-8 lg:py-12">
-     <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
+     <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
       Gallery
      </h1>
      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
