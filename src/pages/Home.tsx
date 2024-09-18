@@ -73,7 +73,7 @@ export default function Home() {
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmserif font-bold max-w-3xl drop-shadow">
                       We are the Artisans and Voices of Tradition!
                     </h1>
-                    <p className="text-sm sm:text-md md:text-lg lg:text-xl mt-4 md:mt-8 opacity-75 max-w-3xl">
+                    <p className="text-sm sm:text-md md:text-lg lg:text-xl mt-4 md:mt-8 text-gray-300 max-w-3xl">
                       Where tradition meets youthful spirit. We fuse
                       Bangladesh's nearly lost cultural heritage with modern
                       music, preserving its essence while crafting something
@@ -117,7 +117,7 @@ export default function Home() {
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
                 Who are we?
               </h1>
-              <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 opacity-75 max-w-xl">
+              <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 text-gray-300 max-w-xl">
                 We are a group of musicians who are dedicated to preserving and
                 promoting the rich musical heritage of traditional cultures.
               </p>
@@ -141,7 +141,7 @@ export default function Home() {
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
                 Our Performances
               </h1>
-              <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 opacity-75 max-w-xl">
+              <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 text-gray-300 max-w-xl">
                 We have performed at various events and have received immense
                 love and appreciation from our audience.
               </p>

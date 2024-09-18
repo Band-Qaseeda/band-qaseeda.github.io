@@ -27,7 +27,7 @@ export const Team = () => {
                   </div>
                 </div>
                 <div className="p-5 relative z-10 bg-primary rounded-b-md">
-                  <h1 className="text-md sm:text-xl font-medium group-hover:text-accent">{v?.name}</h1>
+                  <h1 className="text-md sm:text-xl font-medium group-hover:blur-sm">{v?.name}</h1>
                   <p className="text-gray-600 flex gap-1 items-center mt-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
