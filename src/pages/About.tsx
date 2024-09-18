@@ -7,7 +7,7 @@ export default function About() {
             <h2 className="text-center text-3xl md:text-4xl font-dmserif font-semibold mb-4">
               About Us
             </h2>
-            <p className="pt-4 max-w-[700px] md:max-w-[750px] lg:max-w-5xl mx-auto">
+            <p className="pt-4 max-w-[700px] md:max-w-[750px] lg:max-w-5xl mx-auto md:text-lg">
               Qaseeda is a music band that has recently become highly discussed
               and incredibly popular in the country. After the student uprising,
               their Qawwali music spread nationwide and received significant

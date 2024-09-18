@@ -23,7 +23,7 @@ export const Team = () => {
                     className="w-full aspect-square object-cover bg-transparent"
                   />
                   <div className="absolute bottom-0 inset-0 flex justify-center items-center">
-                    <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 -mb-24"></div>
+                    <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 -mb-[170px]"></div>
                   </div>
                 </div>
                 <div className="p-5 relative z-10 bg-primary rounded-b-md">

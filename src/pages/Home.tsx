@@ -89,7 +89,7 @@ export default function Home() {
                             viewBox="0 0 24 24"
                             strokeWidth={2}
                             stroke="currentColor"
-                            className="size-5"
+                            className="size-6"
                           >
                             <path
                               strokeLinecap="round"
@@ -99,7 +99,7 @@ export default function Home() {
                           </svg>
                         }
                       >
-                        Discover Our Story
+                        Discover More
                       </Button>
                     </Link>
                   </div>

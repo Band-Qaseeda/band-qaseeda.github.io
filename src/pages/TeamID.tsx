@@ -67,13 +67,10 @@ export const TeamID = () => {
               </p>
             )}
           </div>
-          <div className="md:order-first md:col-span-2">
-            <h1 className="text-xl md:text-2xl lg:text-3xl font-medium drop-shadow mt-4">
-              Biography
-            </h1>
-            <p className="mt-4">
+          <div className="md:order-first md:col-span-2 mt-4">
+            <p className="md:text-lg mt-5">
               {tm?.bio?.desc?.split("\n").map((line, index) => (
-                <span key={index} className="block mb-2">
+                <span key={index} className="block mb-4">
                   {line}
                   <br />
                 </span>
