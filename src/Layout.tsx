@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import Gotop from "./components/Gotop";
+import CookieConsent from "./components/CookieConsent";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const l = useLocation();
@@ -31,6 +32,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Footer />
         <Gotop />
       </main>
+
+      <CookieConsent />
     </>
   );
 }

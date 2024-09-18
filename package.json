@@ -1,6 +1,6 @@
 {
   "name": "qaseeda-band",
-  "homepage":  "https://band-qaseeda.github.io/",
+  "homepage": "https://band-qaseeda.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,7 @@
     "publish": "gh-pages -d dist --cname www.qaseeda.org"
   },
   "dependencies": {
+    "js-cookie": "^3.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -21,6 +22,7 @@
     "react-slick": "^0.30.2"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@types/react-helmet": "^6.1.11",

@@ -103,6 +103,11 @@ function App() {
             }
           />
 
+          <Route
+            path="/privacy-policy"
+            element={<Layout>Coming soon!!</Layout>}
+          />
+
           <Route path="/about" element={<Navigate to="/about-us" />} />
           <Route
             path="/about/team"

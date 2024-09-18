@@ -12,9 +12,9 @@ const Gotop = () => {
     });
   }, []);
   return (
-    <div className="fixed bottom-10 right-10" hidden={!show}>
+    <div className="fixed bottom-10 right-10 z-40" hidden={!show}>
       <button
-        className="bg-primary text-neutral rounded-full p-2 hover:bg-primary/80 transition-all duration-100 shadow-lg border active:scale-95"
+        className="bg-primary text-neutral rounded-full p-2 hover:bg-primary/80 transition-all duration-100 shadow-lg border active:scale-95 animate-bounce"
         onClick={() => {
           window.scrollTo({
             top: 0,
