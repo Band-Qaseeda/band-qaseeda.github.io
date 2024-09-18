@@ -14,8 +14,6 @@ const CookieConsent: React.FC = () => {
 
   useEffect(() => {
     const cookieConsent = Cookies.get("cookie-consent");
-    console.log(cookieConsent);
-
     if (!cookieConsent) {
       setIsVisible(true);
     }

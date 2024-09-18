@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import discographySlider from "../utils/discographySlider";
-import discographyLists from "../utils/discographyLists.json";
+import discographyLists from "../utils/discography.json";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { Helmet } from "react-helmet";
@@ -66,7 +66,7 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <div className="h-fit md:h-[75vh] flex items-center justify-center">
+            <div className="h-fit md:min-h-[50vh] lg:min-h-[75vh] flex items-center justify-center">
               <div className="py-[2.5rem] md:py-0 relative flex flex-col justify-center text-center w-full h-full">
                 <div>
                   <div className="relative z-10 flex flex-col items-center">
