@@ -11,7 +11,7 @@ export const Gallery = () => {
        <img
         src="/images/98478.jpg"
         alt="Gallery Image"
-        className="aspect-w-16 aspect-h-9 rounded-md object-cover bg-accent"
+        className="aspect-w-16 aspect-h-9 rounded-md object-cover bg-neutral/5"
        />
       </div>
      </div>

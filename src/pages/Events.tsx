@@ -34,7 +34,7 @@ export const Events = () => {
        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
        .map((e, i) => (
         <div
-         className="w-full bg-primary text-neutral m-4 p-4 lg:p-8 relative"
+         className="w-full bg-primary text-neutral p-4 lg:p-8 relative"
          key={i}
         >
          <div

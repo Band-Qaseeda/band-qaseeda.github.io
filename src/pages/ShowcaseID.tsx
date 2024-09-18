@@ -22,7 +22,7 @@ export const ShowcaseID = () => {
       </Helmet>
       <div className="w-full max-w-7xl mx-auto px-4 lg:px-8 pt-2">
         <div
-          className="relative bg-primary text-neutral rounded-lg p-4 lg:px-6 lg:py-8 shadow-sm h-[70vh] bg-cover bg-center"
+          className="relative bg-primary text-neutral rounded-t-lg p-4 lg:px-6 lg:py-8 shadow-sm h-[70vh] bg-cover bg-center"
           style={{ backgroundImage: `url(/images/${prf?.cover})` }}
         >
           <Link to="/showcase/">
@@ -44,7 +44,7 @@ export const ShowcaseID = () => {
             </button>
           </Link>
 
-          <div className="absolute bottom-0 left-0 right-0 p-4 lg:px-6 rounded-b-lg text-primary bg-gradient-to-t from-neutral/90 pt-12">
+          <div className="absolute bottom-0 left-0 right-0 p-4 lg:px-6 text-primary bg-gradient-to-t from-neutral/90 pt-12">
             <h1 className="text-xl sm:text-2xl font-semibold leading-tight">
               {prf?.title}
             </h1>

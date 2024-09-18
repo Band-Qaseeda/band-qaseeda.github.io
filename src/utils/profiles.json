@@ -35,7 +35,9 @@
     "name": "N A Junayed",
     "prefix": "N_A_Junayed",
     "bio": {
-      "role": "Artist"
+      "role": "Artist",
+      "edu": "Asia Pacific University",
+      "desc": "N A Junayed is currently pursuing an undergraduate degree in English Literature and Language at Asia Pacific University. From a young age, he has been deeply passionate about music and has collaborated with several artists, including a prominent musician from Bangladesh. With a strong affinity for both classic and pop music, Junayed is now one of the vocalists for the renowned band Qaseeda."
     }
   },
   {
@@ -70,7 +72,9 @@
     "name": "Sanjidul Islam Shihab",
     "prefix": "Sanjidul_Islam_Shihab",
     "bio": {
-      "role": "Artist"
+      "role": "Artist",
+      "edu": "University of Dhaka",
+      "desc": "Sanjidul Islam Sihab is a passionately cultural minded person. He is currently studying in the Department of Political Science at University of Dhaka. He is a Teacher in Bangla at  Icon Plus University Admission Coaching since 2022. He has strong interest in music since childhood and has played various instruments in various stage programs.   His interest in playing Kahon/Kazon has been active since his admission in Dhaka University and since 2022 he has been playing Kahon regularly in various programs.  He is currently engaged as a Kahonist of Qaseeda Band"
     }
   },
   {
@@ -84,14 +88,17 @@
     "name": "Munawar Hasnain",
     "prefix": "Munawar_Hasnain",
     "bio": {
-      "role": "Artist"
+      "role": "Artist",
+      "desc": "Munawar Hasnain was born in Narsingdi and raised in Dhaka. Growing up in a cultural family, he has been inclined towards the arts from a young age. Munawar mainly works in song lyric writing, scriptwriting, and journalism. He is also highly skilled in calligraphy. He won the Best Calligrapher Award at the International Quran Calligraphy Competition in 2022. He has a deep interest in Sufi literature, mystic poetry, and spiritual writings. Additionally, he is a member of the technical team for the band 'Qaseeda'."
     }
   },
   {
     "name": "Rajjakul Islam Robi",
     "prefix": "Rajjakul_Islam_Robi",
     "bio": {
-      "role": "Artist"
+      "role": "Artist",
+      "edu": "University of Dhaka",
+      "desc": "Rajjakul Islam Robi is a student of honors in music at the University of Dhaka, specializing as a vocalist. He primarily enjoys Sufi, Nazrul, classical, folk, and melodious songs, regardless of genre. He won National Award for Patriotic Song 'National Education Week 2016 & 2022'. He is a regular singer of Bangladesh Betar & Television.  Currently,  he is working with one of the most popular bands, 'Qaseeda,' as both a vocalist and harmonium player."
     }
   }
 ]
