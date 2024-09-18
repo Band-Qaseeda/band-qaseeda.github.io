@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Cookies from "js-cookie";
 
 const CookieConsent: React.FC = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   const handleAccept = () => {
     setIsVisible(false);
@@ -14,6 +14,8 @@ const CookieConsent: React.FC = () => {
 
   useEffect(() => {
     const cookieConsent = Cookies.get("cookie-consent");
+    console.log(cookieConsent);
+
     if (!cookieConsent) {
       setIsVisible(true);
     }
@@ -28,7 +30,11 @@ const CookieConsent: React.FC = () => {
           Learn more
         </Link>
       </p>
-      <Button onClick={handleAccept} py={2} className="!text-sm !px-4 !bg-gray-800">
+      <Button
+        onClick={handleAccept}
+        py={2}
+        className="!text-sm !px-4 !bg-gray-800"
+      >
         Accept
       </Button>
     </div>
