@@ -14,20 +14,20 @@ export const Team = () => {
             <div key={i} className="flex justify-center">
               <Link
                 to={`/biography/${v?.prefix}`}
-                className="rounded-lg text-neutral w-full max-w-[300px] hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100 relative"
+                className="rounded-lg text-neutral w-full max-w-[300px] hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100 relative group"
               >
                 <div className="relative">
                   <img
                     src={v?.pic}
                     alt="Person"
-                    className="w-full aspect-square object-cover bg-transparent"
+                    className="w-full aspect-square object-cover bg-transparent group-hover:opacity-70"
                   />
                   <div className="absolute bottom-0 inset-0 flex justify-center items-center">
-                    <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 -mb-[170px]"></div>
+                    <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 -mb-[170px] group-hover:to-accent/60"></div>
                   </div>
                 </div>
                 <div className="p-5 relative z-10 bg-primary rounded-b-md">
-                  <h1 className="text-md sm:text-xl font-medium">{v?.name}</h1>
+                  <h1 className="text-md sm:text-xl font-medium group-hover:text-accent">{v?.name}</h1>
                   <p className="text-gray-600 flex gap-1 items-center mt-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

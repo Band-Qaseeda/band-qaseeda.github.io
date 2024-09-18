@@ -4,7 +4,7 @@ export default function About() {
       <div className="w-full max-w-7xl mx-auto">
         <div className="p-8">
           <div className="w-auto text-primary lg:px-8">
-            <h2 className="text-center text-3xl md:text-4xl font-dmserif font-semibold mb-4">
+            <h2 className="text-center text-3xl md:text-4xl lg:text-5xl font-dmserif font-semibold mb-4">
               About Us
             </h2>
             <p className="pt-4 max-w-[700px] md:max-w-[750px] lg:max-w-5xl mx-auto md:text-lg">
