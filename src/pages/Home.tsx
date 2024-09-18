@@ -33,7 +33,7 @@ export default function Home() {
 
       <div className="w-full bg-[url('/images/bg.jpg')] bg-center bg-contain">
         <div className="w-full bg-gradient-to-t from-neutral via-neutral/40 to-neutral">
-          <div className="w-full max-w-7xl mx-auto p-8 relative ">
+          <div className="w-full max-w-7xl mx-auto p-8 relative">
             <div className="absolute top-20 left-20 animate-pulse hidden md:block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <div className="h-fit md:h-[80vh] flex items-center justify-center">
+            <div className="h-fit md:h-[75vh] flex items-center justify-center">
               <div className="py-[2.5rem] md:py-0 relative flex flex-col justify-center text-center w-full h-full">
                 <div>
                   <div className="relative z-10 flex flex-col items-center px-4">
@@ -125,22 +125,18 @@ export default function Home() {
                 <Button className="mt-8">Meet Our Team</Button>
               </Link>
             </div>
-            <div className="hidden md:block">
-              <img
-                src="/images/53342195.jpg"
-                alt="Qawwali"
-                className="w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover rounded-lg"
-              />
-            </div>
+            <img
+              src="/images/bg.jpg"
+              alt="Qawwali"
+              className="hidden md:block w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover rounded-lg bg-accent"
+            />
           </div>
           <div className="mt-20 md:mt-12 w-full h-full flex justify-between items-center gap-4 md:gap-8">
-            <div className="hidden md:block">
-              <img
-                src="/images/455886477.jpg"
-                alt="Qawwali"
-                className="w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover rounded-lg"
-              />
-            </div>
+            <img
+              src="/images/bg.jpg"
+              alt="Qawwali"
+              className="hidden md:block w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover rounded-lg bg-accent"
+            />
             <div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
                 Our Performances

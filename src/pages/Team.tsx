@@ -19,7 +19,7 @@ export const Team = () => {
                 <img
                   src={v?.pic}
                   alt="Person"
-                  className="w-full aspect-square object-cover bg-primary text-neutral rounded-t-md"
+                  className="w-full aspect-square object-cover bg-accent text-primary rounded-t-md"
                 />
                 <div className="p-5">
                   <h1 className="text-md sm:text-xl font-medium">{v?.name}</h1>
