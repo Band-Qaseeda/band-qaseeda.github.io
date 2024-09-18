@@ -9,7 +9,7 @@ export default {
   colors: {
    /* Default */
    primary: "#ffffff" /* White */,
-   accent: "#85144b" /* Maroon */,
+   accent: "#840000" /* Maroon */,
    neutral: "#000000" /* Black */,
 
    /* Custom */

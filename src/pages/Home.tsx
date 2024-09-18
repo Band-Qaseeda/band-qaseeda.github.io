@@ -31,58 +31,79 @@ export default function Home() {
         />
       </Helmet>
 
-      <div className="w-full max-w-7xl mx-auto p-8">
-        <div className="h-fit md:h-[80vh] flex items-center justify-center relative">
-          <div className="absolute top-20 left-20 animate-pulse hidden md:block">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-14"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z"
-              />
-            </svg>
-          </div>
-
-          <div className="py-[2.5rem] md:py-0 relative flex flex-col justify-center text-center w-full h-full bg-neutral/50">
-            <div>
-              <div className="relative z-10 flex flex-col items-center px-4">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmserif font-bold max-w-3xl drop-shadow">
-                  We are the Bearers and Heralds of Tradition!
-                </h1>
-                <p className="text-sm sm:text-md md:text-lg lg:text-xl mt-4 md:mt-8 opacity-75 max-w-xl">
-                  Discover a journey through the profound rhythms and melodies
-                  of Qawwali and Najrul Geeti.
-                </p>
-                <Link to="/about-us">
-                  <Button
-                    className="mt-8"
-                    icon={
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="size-5"
+      <div className="w-full bg-[url('/images/bg.jpg')] bg-center bg-contain">
+        <div className="w-full bg-gradient-to-t from-neutral via-neutral/40 to-neutral">
+          <div className="w-full max-w-7xl mx-auto p-8 relative ">
+            <div className="absolute top-20 left-20 animate-pulse hidden md:block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-14 opacity-50"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 1 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163Zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 9 15.553Z"
+                />
+              </svg>
+            </div>
+            <div className="absolute bottom-[160px] right-20 animate-pulse hidden md:block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-14 opacity-50"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+                />
+              </svg>
+            </div>
+            <div className="h-fit md:h-[80vh] flex items-center justify-center">
+              <div className="py-[2.5rem] md:py-0 relative flex flex-col justify-center text-center w-full h-full">
+                <div>
+                  <div className="relative z-10 flex flex-col items-center px-4">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmserif font-bold max-w-3xl drop-shadow">
+                    We are the Artisans and Voices of Tradition!
+                    </h1>
+                    <p className="text-sm sm:text-md md:text-lg lg:text-xl mt-4 md:mt-8 opacity-75 max-w-3xl">
+                      Where tradition meets youthful spirit. We fuse
+                      Bangladesh's nearly lost cultural heritage with modern
+                      music, preserving its essence while crafting something
+                      soulful and groundbreaking.
+                    </p>
+                    <Link to="/about-us">
+                      <Button
+                        className="mt-8"
+                        icon={
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={2}
+                            stroke="currentColor"
+                            className="size-5"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+                            />
+                          </svg>
+                        }
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
-                        />
-                      </svg>
-                    }
-                  >
-                    Discover Our Story
-                  </Button>
-                </Link>
+                        Discover Our Story
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -98,7 +119,7 @@ export default function Home() {
               </h1>
               <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 opacity-75 max-w-xl">
                 We are a group of musicians who are dedicated to preserving and
-                promoting the rich musical heritage of Qawwali and Najrul Geeti.
+                promoting the rich musical heritage of traditional cultures.
               </p>
               <Link to="/about-team">
                 <Button
@@ -108,7 +129,7 @@ export default function Home() {
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
-                      strokeWidth={1.5}
+                      strokeWidth={2}
                       stroke="currentColor"
                       className="size-5"
                     >
@@ -156,7 +177,7 @@ export default function Home() {
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
-                      strokeWidth={1.5}
+                      strokeWidth={2}
                       stroke="currentColor"
                       className="size-5"
                     >
