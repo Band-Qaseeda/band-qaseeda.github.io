@@ -6,11 +6,7 @@ import Button from "../components/Button";
 import { useState } from "react";
 
 export const Events = () => {
-  const [events, setEvents] = useState<
-    {
-      date: string;
-    }[]
-  >(eventsAll);
+  const [events, setEvents] = useState(eventsAll);
   const [startDate, setStartDate] = useState<string>("");
   const [endDate, setEndDate] = useState<string>("");
 
