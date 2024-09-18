@@ -55,7 +55,7 @@ export const TeamID = () => {
           </p>
         </div>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="p-4 border border-primary/30 rounded-lg">
+          <div className="h-fit p-4 border border-primary/30 rounded-lg">
             <p>
               <b>Education:</b> {tm?.bio?.edu}
             </p>

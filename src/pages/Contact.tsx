@@ -5,7 +5,7 @@ export default function Contact() {
         <h2 className="text-center text-3xl md:text-4xl font-dmserif font-semibold mb-4">
           Contact Info
         </h2>
-        <div className="max-w-[700px] md:max-w-[750px] mx-auto bg-primary/10 p-4 py-5 md:p-8 rounded-md mt-8">
+        <div className="max-w-[700px] md:max-w-[750px] mx-auto bg-grayish p-4 py-5 md:p-8 rounded-md mt-8">
           <p className="flex gap-2 md:gap-4 items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"

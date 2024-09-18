@@ -3,41 +3,32 @@ export default function About() {
     <>
       <div className="w-full max-w-7xl mx-auto">
         <div className="p-8">
-          <div className="flex flex-col lg:flex-row items-center gap-y-12">
-            <div className="w-auto text-primary lg:px-8">
-              <h2 className="text-center text-3xl md:text-4xl font-dmserif font-semibold mb-4">
-                About Us
-              </h2>
-              <p className="pt-4 max-w-[700px] md:max-w-[750px] mx-auto">
-                Qaseeda is a music band that has recently become highly
-                discussed and incredibly popular in the country. After the
-                student uprising, their Qawwali music spread nationwide and
-                received significant praise from netizens. Following the attack
-                on a Qawwali concert at Dhaka University’s TSC in 2022, Qawwali
-                was unofficially banned. Recently, Qaseeda’s Qawwali
-                performances at TSC have been embraced as symbols of student
-                liberation.
-                <br />
-                <br />
-                Qaseeda is fundamentally a platform that nurtures and embodies
-                its roots, land, people, and traditions. The band aims to
-                present to the world the essence of the region’s land, people,
-                and heritage. To achieve this, Qaseeda showcases its expertise
-                through folk songs, Puthi, Jari-Sari, Bhatiyali, Baul, Gaan,
-                Ghazal, Qawwali, Hamd-Naat, and various aspects of the local
-                lifestyle and culture.
-                <br />
-                <br />
-                With their music, which carries the essence of their tradition,
-                the band dreams of representing the region’s cultural roots on
-                the global stage.
-              </p>
-            </div>
-            <img
-              src="/images/45419.jpg"
-              alt="Qaseeda Band"
-              className="w-full rounded-lg max-w-[500px] max-h-[500px] lg:max-w-[400px] lg:max-h-[400px] mx-auto"
-            />
+          <div className="w-auto text-primary lg:px-8">
+            <h2 className="text-center text-3xl md:text-4xl font-dmserif font-semibold mb-4">
+              About Us
+            </h2>
+            <p className="pt-4 max-w-[700px] md:max-w-[750px] lg:max-w-5xl mx-auto">
+              Qaseeda is a music band that has recently become highly discussed
+              and incredibly popular in the country. After the student uprising,
+              their Qawwali music spread nationwide and received significant
+              praise from netizens. Following the attack on a Qawwali concert at
+              Dhaka University’s TSC in 2022, Qawwali was unofficially banned.
+              Recently, Qaseeda’s Qawwali performances at TSC have been embraced
+              as symbols of student liberation.
+              <br />
+              <br />
+              Qaseeda is fundamentally a platform that nurtures and embodies its
+              roots, land, people, and traditions. The band aims to present to
+              the world the essence of the region’s land, people, and heritage.
+              To achieve this, Qaseeda showcases its expertise through folk
+              songs, Puthi, Jari-Sari, Bhatiyali, Baul, Gaan, Ghazal, Qawwali,
+              Hamd-Naat, and various aspects of the local lifestyle and culture.
+              <br />
+              <br />
+              With their music, which carries the essence of their tradition,
+              the band dreams of representing the region’s cultural roots on the
+              global stage.
+            </p>
           </div>
         </div>
       </div>

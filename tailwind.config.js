@@ -12,6 +12,8 @@ export default {
    accent: "#840000" /* Maroon */,
    neutral: "#000000" /* Black */,
 
+   grayish: "#0D0D0D",
+
    /* Custom */
    transparent: "transparent",
    gray: colors.gray,
