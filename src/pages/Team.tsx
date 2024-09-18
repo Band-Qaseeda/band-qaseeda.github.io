@@ -23,7 +23,7 @@ export const Team = () => {
                 />
                 <div className="p-5">
                   <h1 className="text-md sm:text-xl font-medium">{v?.name}</h1>
-                  <p className="text-gray-500 flex gap-1 items-center mt-1">
+                  <p className="text-gray-600 flex gap-1 items-center mt-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"

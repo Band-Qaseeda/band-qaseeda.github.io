@@ -36,7 +36,7 @@ export const TeamID = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-dmserif font-bold drop-shadow mt-4">
             {tm?.name}
           </h1>
-          <p className="text-gray-500 flex gap-1 items-center mt-1">
+          <p className="text-gray-400 flex gap-1 items-center mt-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
