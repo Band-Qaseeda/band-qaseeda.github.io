@@ -55,16 +55,30 @@ export const TeamID = () => {
           </p>
         </div>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="h-fit p-4 border border-primary/30 rounded-lg">
-            <p>
-              <b>Education:</b> {tm?.bio?.edu}
-            </p>
+          <div className="md:mt-6 h-fit p-4 border border-primary/30 rounded-lg flex flex-col gap-1">
+            {tm?.bio?.fullname && (
+              <p>
+                <b>Fullname:</b> {tm?.bio?.fullname}
+              </p>
+            )}
+            {tm?.bio?.edu && (
+              <p>
+                <b>Education:</b> {tm?.bio?.edu}
+              </p>
+            )}
           </div>
           <div className="md:order-first md:col-span-2">
             <h1 className="text-xl md:text-2xl lg:text-3xl font-medium drop-shadow mt-4">
               Biography
             </h1>
-            <p className="mt-4">{tm?.bio?.desc}</p>
+            <p className="mt-4">
+              {tm?.bio?.desc?.split("\n").map((line, index) => (
+                <span key={index} className="block mb-2">
+                  {line}
+                  <br />
+                </span>
+              ))}
+            </p>
           </div>
         </div>
       </div>

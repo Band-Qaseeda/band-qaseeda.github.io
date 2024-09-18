@@ -73,7 +73,7 @@ export const ShowcaseID = () => {
                     <div>
                       <img
                         src={
-                          e && "logo" in e && typeof e.logo === "string"
+                          "logo" in e && typeof e.logo === "string"
                             ? e.logo
                             : `https://logo.clearbit.com/${
                                 new URL(e.link).hostname
@@ -96,8 +96,12 @@ export const ShowcaseID = () => {
                         rel="noreferrer"
                         className="inline-block mt-3"
                       >
-                        <button className="bg-accent text-primary rounded-full py-1 px-4 hover:bg-accent/80 transition-all duration-100 flex items-center text-sm">
-                          <span>Read More</span>
+                        <button className="bg-accent text-primary rounded-full py-1 px-4 hover:bg-accent/80 transition-all duration-100 flex items-center gap-1 text-sm">
+                          <span>
+                            {"logo" in e && typeof e.logo === "string"
+                              ? "Watch"
+                              : "Read"}
+                          </span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6"
@@ -118,9 +122,7 @@ export const ShowcaseID = () => {
                 )
             )
           ) : (
-            <div
-              className="w-full bg-gray-800 text-primary rounded-md p-4 lg:p-8"
-            >
+            <div className="w-full bg-gray-800 text-primary rounded-md p-4 lg:p-8">
               <h1 className="text-md sm:text-xl font-medium">
                 No press release available.
               </h1>
