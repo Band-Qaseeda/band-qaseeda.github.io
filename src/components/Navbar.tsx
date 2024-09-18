@@ -25,15 +25,13 @@ export default function Navbar({
       </NavLink>
       <NavLink
         to="/about-us"
-        end
         className={navbarLinkClass}
         onClick={() => setOpenMenu(false)}
       >
         <li>About Us</li>
       </NavLink>
       <NavLink
-        to="/about-us/team"
-        end
+        to="/about-team"
         className={navbarLinkClass}
         onClick={() => setOpenMenu(false)}
       >
@@ -74,19 +72,14 @@ export default function Navbar({
     navbarEffect();
   }, []);
 
-  useEffect(() => {
-    if (menuButton.current) {
-      if (openMenu) {
-        menuButton.current.classList.add("bg-primary/30");
-      } else {
-        menuButton.current.classList.remove("bg-primary/30");
-      }
-    }
-  }, [openMenu]);
-
   return (
     <>
-      <nav className="_navbar sticky top-0 left-0 bg-neutral z-50 py-6 md:py-8 transition-all duration-100 border-b-2 border-transparent">
+      <nav
+        className={
+          "w-full _navbar bg-neutral z-50 py-6 md:py-8 transition-all duration-100 border-b-2 border-transparent" +
+          (openMenu ? " h-[100vh] fixed top-0 left-0" : " sticky top-0 left-0")
+        }
+      >
         <div className="px-4 w-full max-w-7xl mx-auto flex justify-between items-center">
           <div className="_left">
             <Link to="/">
@@ -123,9 +116,9 @@ export default function Navbar({
             </button>
           </div>
         </div>
-        <div className="lg:hidden w-full" hidden={!openMenu}>
-          <div className="mt-4 px-5 w-full max-w-7xl mx-auto flex justify-between items-center">
-            <ul className="flex flex-col gap-3 text-md font-medium">
+        <div className="lg:hidden w-full h-full" hidden={!openMenu}>
+          <div className="mt-4 px-5 w-full h-full max-w-7xl mx-auto">
+            <ul className="flex flex-col w-full h-full gap-3 text-xl justify-center items-center font-medium">
               <NavLinks />
             </ul>
           </div>

@@ -23,19 +23,18 @@ export const Events = () => {
      All Events
     </h1>
     <Slider
-     dots={true}
      infinite={false}
      speed={500}
      slidesToShow={1}
      slidesToScroll={1}
-     className="max-w-2xl mx-auto p-4 !h-fit"
+     className="max-w-2xl mx-auto !h-fit"
     >
      {events.length > 0 ? (
       events
        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
        .map((e, i) => (
         <div
-         className="w-full bg-primary text-neutral p-4 lg:p-8 relative"
+         className="w-full bg-primary text-neutral m-4 p-4 lg:p-8 relative"
          key={i}
         >
          <div

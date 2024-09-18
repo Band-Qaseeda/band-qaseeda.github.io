@@ -8,7 +8,7 @@ export const TeamID = () => {
     <>
       <div className="w-full max-w-7xl mx-auto p-8">
         <div className="flex justify-center md:block">
-          <Link to="/about-us/team/">
+          <Link to="/about-team/">
             <button className="bg-primary text-neutral rounded-full p-2 hover:bg-primary/80 transition-all duration-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,11 @@ export const TeamID = () => {
           </p>
         </div>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="p-4 border border-primary">{tm?.bio?.edu}</div>
+          <div className="p-4 border border-primary/30 rounded-lg">
+            <p>
+              <b>Education:</b> {tm?.bio?.edu}
+            </p>
+          </div>
           <div className="md:order-first md:col-span-2">
             <h1 className="text-xl md:text-2xl lg:text-3xl font-medium drop-shadow mt-4">
               Biography

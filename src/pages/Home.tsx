@@ -207,12 +207,12 @@ export default function Home() {
               speed={500}
               slidesToShow={1}
               slidesToScroll={1}
-              className="max-w-2xl mx-auto p-4 !h-fit"
+              className="max-w-2xl mx-auto !h-fit"
             >
               {events.length > 0 ? (
                 events.map((e, i) => (
                   <div
-                    className="w-full bg-primary text-neutral p-4 lg:p-8 relative"
+                    className="w-full bg-primary text-neutral m-4 p-4 lg:p-8 relative"
                     key={i}
                   >
                     <div
@@ -240,8 +240,8 @@ export default function Home() {
                   </div>
                 ))
               ) : (
-                <div className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8">
-                  <h1 className="text-md sm:text-xl md:text-2xl font-medium">
+                <div className="w-full bg-primary text-neutral rounded-md p-4 md:p-8">
+                  <h1 className="text-md sm:text-xl font-medium">
                     No Upcoming Events
                   </h1>
                 </div>
