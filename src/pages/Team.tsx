@@ -14,14 +14,19 @@ export const Team = () => {
             <div key={i} className="flex justify-center">
               <Link
                 to={`/biography/${v?.prefix}`}
-                className="rounded-lg bg-primary text-neutral w-full max-w-[300px] hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100"
+                className="rounded-lg text-neutral w-full max-w-[300px] hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100 relative"
               >
-                <img
-                  src={v?.pic}
-                  alt="Person"
-                  className="w-full aspect-square object-cover bg-accent text-primary rounded-t-md"
-                />
-                <div className="p-5">
+                <div className="relative">
+                  <img
+                    src={v?.pic}
+                    alt="Person"
+                    className="w-full aspect-square object-cover bg-transparent"
+                  />
+                  <div className="absolute bottom-0 inset-0 flex justify-center items-center">
+                    <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 -mb-24"></div>
+                  </div>
+                </div>
+                <div className="p-5 relative z-10 bg-primary rounded-b-md">
                   <h1 className="text-md sm:text-xl font-medium">{v?.name}</h1>
                   <p className="text-gray-600 flex gap-1 items-center mt-1">
                     <svg
