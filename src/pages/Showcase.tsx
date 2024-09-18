@@ -11,7 +11,7 @@ export default function Showcase() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
           {showcase.map((p) => (
             <Link to={`/showcase/${p?.id}`}>
-              <div className="rounded-lg shadow-sm cursor-pointer hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100 cursor-pointer bg-gradient-to-t from-accent to-transparent p-1">
+              <div className="rounded-lg shadow-sm cursor-pointer hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100 cursor-pointer bg-gradient-to-b from-transparent via-accent to-transparent p-1">
                 <div className="bg-primary text-neutral rounded-lg">
                   <img
                     src={"/images/" + p?.cover}
