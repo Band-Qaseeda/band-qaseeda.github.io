@@ -1,11 +1,15 @@
 import { Link, useParams } from "react-router-dom";
 import profiles from "../utils/profiles.json";
+import { Helmet } from "react-helmet";
 
 export const TeamID = () => {
   const { prefix } = useParams<{ prefix: string }>();
   const tm = profiles.find((p) => String(p.prefix) === prefix);
   return tm ? (
     <>
+      <Helmet>
+        <title>{tm?.name} - Qaseeda Band</title>
+      </Helmet>
       <div className="w-full max-w-7xl mx-auto p-8">
         <div className="flex justify-center md:block">
           <Link to="/about-team/">

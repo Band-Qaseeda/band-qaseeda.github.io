@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet";
+
 export default function About() {
   return (
     <>
+      <Helmet>
+        <title>About Us - Qaseeda Band</title>
+      </Helmet>
       <div className="w-full max-w-7xl mx-auto">
         <div className="p-8">
           <div className="w-auto text-primary lg:px-8">

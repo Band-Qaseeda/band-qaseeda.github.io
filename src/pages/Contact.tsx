@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet";
+
 export default function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Contact Us - Qaseeda Band</title>
+      </Helmet>
       <div className="w-full max-w-7xl mx-auto p-8">
         <h2 className="text-center text-3xl md:text-4xl font-dmserif font-semibold mb-4">
           Contact Info

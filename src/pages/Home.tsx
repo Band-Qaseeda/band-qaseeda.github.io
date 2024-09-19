@@ -47,6 +47,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
+        <title>Qaseeda Band</title>
         <link
           rel="stylesheet"
           type="text/css"

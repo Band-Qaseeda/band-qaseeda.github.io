@@ -9,6 +9,7 @@ export const ShowcaseID = () => {
   return (
     <>
       <Helmet>
+        <title>{prf?.title} - Qaseeda Band</title>
         <link
           rel="stylesheet"
           type="text/css"

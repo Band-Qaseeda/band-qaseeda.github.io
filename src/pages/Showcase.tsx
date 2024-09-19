@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import showcaseAll from "../utils/showcase.json";
 import Button from "../components/Button";
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 export default function Showcase() {
   const [showcase, setShowcase] = useState(showcaseAll);
@@ -24,6 +25,9 @@ export default function Showcase() {
   };
   return (
     <>
+      <Helmet>
+        <title>Showcase - Qaseeda Band</title>
+      </Helmet>
       <div className="w-full max-w-7xl mx-auto p-8">
         <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
           Showcase

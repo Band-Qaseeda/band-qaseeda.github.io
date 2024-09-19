@@ -66,6 +66,7 @@ export const Events = () => {
   return (
     <>
       <Helmet>
+        <title>Events - Qaseeda Band</title>
         <link
           rel="stylesheet"
           type="text/css"
