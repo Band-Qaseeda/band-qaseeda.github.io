@@ -2,97 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Home page -->
     <url>
-        <loc>https://www.qaseeda.com/</loc>
+        <loc>https://www.qaseeda.org/?</loc>
         <priority>1.0</priority>
         <changefreq>daily</changefreq>
     </url>
 
     <!-- Showcase -->
     <url>
-        <loc>https://www.qaseeda.com/showcase</loc>
+        <loc>https://www.qaseeda.org/?showcase</loc>
         <priority>0.8</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://www.qaseeda.com/biography/Mohammed_Shaheen</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://www.qaseeda.com/biography/Ahmad_Ataullah_Salman</loc>
+        <loc>https://www.qaseeda.org/?biography/Mohammed_Shaheen</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Saad_Al_Amin</loc>
+        <loc>https://www.qaseeda.org/?biography/Ahmad_Ataullah_Salman</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Nazmus_Sakib</loc>
+        <loc>https://www.qaseeda.org/?biography/Saad_Al_Amin</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/N_A_Junayed</loc>
+        <loc>https://www.qaseeda.org/?biography/Nazmus_Sakib</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Umaer_Ibn_Zohir</loc>
+        <loc>https://www.qaseeda.org/?biography/N_A_Junayed</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Muaz_Mostafa</loc>
+        <loc>https://www.qaseeda.org/?biography/Umaer_Ibn_Zohir</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Imam_HR</loc>
+        <loc>https://www.qaseeda.org/?biography/Muaz_Mostafa</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Md_Rahamat_Ullah</loc>
+        <loc>https://www.qaseeda.org/?biography/Imam_HR</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Sanjidul_Islam_Shihab</loc>
+        <loc>https://www.qaseeda.org/?biography/Md_Rahamat_Ullah</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Asadullahil_Galib</loc>
+        <loc>https://www.qaseeda.org/?biography/Sanjidul_Islam_Shihab</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Munawar_Hasnain</loc>
+        <loc>https://www.qaseeda.org/?biography/Asadullahil_Galib</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Rajjakul_Islam_Robi</loc>
+        <loc>https://www.qaseeda.org/?biography/Munawar_Hasnain</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.qaseeda.com/biography/Mohammad_Sefatullah</loc>
+        <loc>https://www.qaseeda.org/?biography/Rajjakul_Islam_Robi</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.qaseeda.org/?biography/Mohammad_Sefatullah</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -100,47 +100,47 @@
 
     <!-- Gallery -->
     <url>
-        <loc>https://www.qaseeda.com/gallery</loc>
+        <loc>https://www.qaseeda.org/?gallery</loc>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
     </url>
 
     <!-- Events -->
     <url>
-        <loc>https://www.qaseeda.com/events</loc>
+        <loc>https://www.qaseeda.org/?events</loc>
         <priority>0.8</priority>
         <changefreq>weekly</changefreq>
     </url>
 
     <!-- About Us -->
     <url>
-        <loc>https://www.qaseeda.com/about-us</loc>
+        <loc>https://www.qaseeda.org/?about-us</loc>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
     </url>
 
     <!-- Team -->
     <url>
-        <loc>https://www.qaseeda.com/about-team</loc>
+        <loc>https://www.qaseeda.org/?about-team</loc>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://www.qaseeda.com/biography/:prefix</loc>
+        <loc>https://www.qaseeda.org/?biography/:prefix</loc>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
     </url>
 
     <!-- Contact Us -->
     <url>
-        <loc>https://www.qaseeda.com/contact-us</loc>
+        <loc>https://www.qaseeda.org/?contact-us</loc>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
     </url>
 
     <!-- Privacy Policy -->
     <url>
-        <loc>https://www.qaseeda.com/privacy-policy</loc>
+        <loc>https://www.qaseeda.org/?privacy-policy</loc>
         <priority>0.5</priority>
         <changefreq>yearly</changefreq>
     </url>
