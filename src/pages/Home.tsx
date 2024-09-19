@@ -32,9 +32,9 @@ export default function Home() {
       </Helmet>
 
       <div className="w-full bg-[url('/images/bg.jpg')] bg-center bg-contain">
-        <div className="w-full bg-gradient-to-t from-neutral via-neutral/40 to-neutral">
+        <div className="w-full bg-gradient-to-b lg:bg-gradient-to-t from-neutral to-neutral/40 lg:via-neutral/40 lg:to-neutral">
           <div className="w-full max-w-7xl mx-auto p-8 relative">
-            <div className="absolute top-20 left-20 animate-pulse hidden md:block">
+            <div className="absolute top-20 left-20 animate-pulse hidden lg:block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -50,7 +50,7 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <div className="absolute bottom-[160px] right-20 animate-pulse hidden md:block">
+            <div className="absolute bottom-[160px] right-20 animate-pulse hidden lg:block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -67,7 +67,7 @@ export default function Home() {
               </svg>
             </div>
             <div className="h-fit md:min-h-[50vh] lg:min-h-[75vh] flex items-center justify-center">
-              <div className="py-[2.5rem] md:py-0 relative flex flex-col justify-center text-center w-full h-full">
+              <div className="py-[3rem] lg:py-0 relative flex flex-col justify-center text-center w-full h-full">
                 <div>
                   <div className="relative z-10 flex flex-col items-center">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmserif font-bold max-w-3xl drop-shadow">
