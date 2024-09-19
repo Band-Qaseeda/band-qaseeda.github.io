@@ -29,7 +29,7 @@ export const TeamID = () => {
         </div>
         <div className="flex flex-col items-center gap-2 mt-5 text-center">
           <img
-            src={tm?.pic}
+            src={"/images/person/" + tm?.prefix + ".png"}
             alt="Person"
             className="w-full max-w-[200px] aspect-square object-cover bg-primary text-neutral rounded-md"
           />

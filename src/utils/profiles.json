@@ -26,7 +26,6 @@
   {
     "name": "Nazmus Sakib",
     "prefix": "Nazmus_Sakib",
-    "pic": "",
     "bio": {
       "role": "Artist",
       "edu": "University of Dhaka",
@@ -88,15 +87,15 @@
     "name": "Asadullahil Galib",
     "prefix": "Asadullahil_Galib",
     "bio": {
-      "role": "Artist"
+      "role": "Creative Team"
     }
   },
   {
     "name": "Munawar Hasnain",
     "prefix": "Munawar_Hasnain",
     "bio": {
-      "role": "Artist",
-      "desc": "Munawar Hasnain was born in Narsingdi and raised in Dhaka. Growing up in a cultural family, he has been inclined towards the arts from a young age. Munawar mainly works in song lyric writing, scriptwriting, and journalism. He is also highly skilled in calligraphy. He won the Best Calligrapher Award at the International Quran Calligraphy Competition in 2022. He has a deep interest in Sufi literature, mystic poetry, and spiritual writings. Additionally, he is a member of the technical team for the band 'Qaseeda'."
+      "role": "Creative Team",
+      "desc": "Munawar Hasnain was born in Narsingdi and raised in Dhaka. Growing up in a cultural family, he has been inclined towards the arts from a young age. Munawar mainly works in song lyric writing, scriptwriting, and journalism. He is also highly skilled in calligraphy. He won the Best Calligrapher Award at the International Quran Calligraphy Competition in 2022. He has a deep interest in Sufi literature, mystic poetry, and spiritual writings. Additionally, he is a member of the creative team for the band 'Qaseeda'."
     }
   },
   {
@@ -106,6 +105,15 @@
       "role": "Artist",
       "edu": "University of Dhaka",
       "desc": "Rajjakul Islam Robi is a student of honors in music at the University of Dhaka, specializing as a vocalist. He primarily enjoys Sufi, Nazrul, classical, folk, and melodious songs, regardless of genre. He won National Award for Patriotic Song 'National Education Week 2016 & 2022'. He is a regular singer of Bangladesh Betar & Television.  Currently,  he is working with one of the most popular bands, 'Qaseeda,' as both a vocalist and harmonium player."
+    }
+  },
+  {
+    "name": "Mohammad Sefatullah",
+    "prefix": "Mohammad_Sefatullah",
+    "bio": {
+      "role": "Chief Technology Officer",
+      "edu": "Tamirul Millat Kamil Madrasah",
+      "desc": ""
     }
   }
 ]

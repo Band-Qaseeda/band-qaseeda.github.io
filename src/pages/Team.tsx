@@ -18,16 +18,18 @@ export const Team = () => {
               >
                 <div className="relative">
                   <img
-                    src={v?.pic}
+                    src={"/images/person/" + v?.prefix + ".png"}
                     alt="Person"
-                    className="w-full aspect-square object-cover bg-transparent group-hover:opacity-70"
+                    className="w-full aspect-square object-cover bg-center bg-transparent group-hover:opacity-70 relative z-10"
                   />
                   <div className="absolute bottom-0 inset-0 flex justify-center items-center">
                     <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 -mb-[170px] group-hover:to-accent/60"></div>
                   </div>
                 </div>
                 <div className="p-5 relative z-10 bg-primary rounded-b-md">
-                  <h1 className="text-md sm:text-xl font-medium group-hover:blur-sm">{v?.name}</h1>
+                  <h1 className="text-md sm:text-xl font-medium group-hover:blur-sm">
+                    {v?.name}
+                  </h1>
                   <p className="text-gray-600 flex gap-1 items-center mt-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
