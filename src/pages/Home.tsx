@@ -304,8 +304,8 @@ export default function Home() {
                   ))
               ) : (
                 <div className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8">
-                  <h1 className="text-md sm:text-xl md:text-2xl font-medium">
-                    This section is under construction.
+                  <h1 className="text-sm sm:text-xl font-medium">
+                    No upcoming event found!
                   </h1>
                 </div>
               )}

@@ -21,6 +21,7 @@ export const Events = () => {
   const [endDate, setEndDate] = useState<string>("");
   const [showEvent, setShowEvent] = useState<boolean>(false);
   const [dataOfEvent, setDataOfEvent] = useState({});
+  const [showSearch, setShowSearch] = useState<boolean>(false);
   const SPREADSHEET_ID = "1WzQICXQ0tshJ2axEqH2kLFSjHzlBv1UFOdRhmVYCdIY";
   const API_KEY = "AIzaSyBppRNRXIBmg_RFrIQl4Gpb_YlFsWUJK_c";
   const RANGE = "Sheet1!A1:C10";
@@ -81,10 +82,15 @@ export const Events = () => {
           All Events
         </h1>
 
-        <div className="w-full max-w-2xl mx-auto flex flex-col md:flex-row mb-8 md:justify-between gap-4">
+        <div
+          className={
+            "w-full max-w-2xl mx-auto flex flex-col md:flex-row mb-8 md:justify-between gap-4 " +
+            (showSearch ? "flex" : "hidden")
+          }
+        >
           <div className="overflow-x-auto flex items-center">
             <div className="relative">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+              <div className="absolute inset-y-0 start-0 flex items-center ps-3">
                 <svg
                   className="w-4 h-4 text-gray-500 dark:text-gray-400"
                   aria-hidden="true"
@@ -96,7 +102,6 @@ export const Events = () => {
                 </svg>
               </div>
               <input
-                id="datepicker-range-start"
                 name="start"
                 type="date"
                 value={startDate}
@@ -107,7 +112,7 @@ export const Events = () => {
             </div>
             <span className="mx-4 text-gray-500">to</span>
             <div className="relative me-4">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+              <div className="absolute inset-y-0 start-0 flex items-center ps-3">
                 <svg
                   className="w-4 h-4 text-gray-500 dark:text-gray-400"
                   aria-hidden="true"
@@ -119,7 +124,6 @@ export const Events = () => {
                 </svg>
               </div>
               <input
-                id="datepicker-range-end"
                 name="end"
                 type="date"
                 value={endDate}
@@ -157,6 +161,21 @@ export const Events = () => {
 
         <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 gap-y-8 md:p-8">
           <div>
+            <div className="mb-4 flex items-center">
+              <input
+                id="default-checkbox"
+                type="checkbox"
+                checked={showSearch}
+                onChange={(e) => setShowSearch(e.target.checked)}
+                className="w-4 h-4 text-blue-600 rounded ring-blue-500 focus:ring-blue-600 ring-offset-gray-800 focus:ring-2 bg-gray-700 border-gray-600 cursor-pointer"
+              />
+              <label
+                htmlFor="default-checkbox"
+                className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 select-none cursor-pointer"
+              >
+                Search filter
+              </label>
+            </div>
             <Slider
               infinite={false}
               speed={500}
@@ -198,9 +217,9 @@ export const Events = () => {
                     </div>
                   ))
               ) : (
-                <div className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8">
-                  <h1 className="text-md sm:text-xl md:text-2xl font-medium">
-                    This section is under construction.
+                <div className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8 mt-4 lg:mt-8">
+                  <h1 className="text-sm sm:text-xl font-medium">
+                    No event found!
                   </h1>
                 </div>
               )}
@@ -212,6 +231,10 @@ export const Events = () => {
               plugins={[dayGridPlugin]}
               initialView="dayGridMonth"
               viewClassNames="w-fit"
+              dayCellClassNames="cursor-pointer"
+              eventContent={
+                <div className="fc-daygrid-event-dot !border-accent !border-[6px] !rounded-full ml-3"></div>
+              }
               events={eventsAll.map((e) => {
                 return {
                   date: new Date(e.date + " " + e.time).toISOString(),

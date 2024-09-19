@@ -35,11 +35,11 @@ export default function Showcase() {
             type="checkbox"
             checked={showSearch}
             onChange={(e) => setShowSearch(e.target.checked)}
-            className="w-4 h-4 text-blue-600 rounded ring-blue-500 focus:ring-blue-600 ring-offset-gray-800 focus:ring-2 bg-gray-700 border-gray-600"
+            className="w-4 h-4 text-blue-600 rounded ring-blue-500 focus:ring-blue-600 ring-offset-gray-800 focus:ring-2 bg-gray-700 border-gray-600 cursor-pointer"
           />
           <label
             htmlFor="default-checkbox"
-            className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 select-none"
+            className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 select-none cursor-pointer"
           >
             Search filter
           </label>
