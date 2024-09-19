@@ -7,7 +7,7 @@ export default function Contact() {
         <title>Contact Us - Qaseeda Band</title>
       </Helmet>
       <div className="w-full max-w-7xl mx-auto p-8">
-        <h2 className="text-center text-3xl md:text-4xl font-dmserif font-semibold mb-4">
+        <h2 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           Contact Info
         </h2>
         <div className="max-w-[700px] md:max-w-[750px] mx-auto bg-grayish p-4 py-5 md:p-8 rounded-md mt-8">

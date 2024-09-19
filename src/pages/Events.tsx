@@ -79,7 +79,7 @@ export const Events = () => {
         />
       </Helmet>
       <div className="w-full p-8">
-        <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
+        <h1 className="text-center text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow mb-8">
           All Events
         </h1>
 

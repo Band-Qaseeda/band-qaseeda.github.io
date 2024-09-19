@@ -29,7 +29,7 @@ export default function Showcase() {
         <title>Showcase - Qaseeda Band</title>
       </Helmet>
       <div className="w-full max-w-7xl mx-auto p-8">
-        <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
+        <h1 className="text-center text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow mb-8">
           Showcase
         </h1>
 

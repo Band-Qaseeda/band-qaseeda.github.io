@@ -37,7 +37,7 @@ export const TeamID = () => {
             alt="Person"
             className="w-full max-w-[200px] aspect-square object-cover bg-primary text-neutral rounded-md"
           />
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-dmserif font-bold drop-shadow mt-4">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl  font-bold drop-shadow mt-4">
             {tm?.name}
           </h1>
           <p className="text-gray-400 flex gap-1 items-center mt-1">

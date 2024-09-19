@@ -19,11 +19,7 @@ export default {
    gray: colors.gray,
   },
   fontFamily: {
-   sans: ["Poppins", ...defaultTheme.fontFamily.sans] /* Default */,
-   dmserif: [
-    "DM Serif Display",
-    ...defaultTheme.fontFamily.serif,
-   ] /* Heading */,
+   sans: ["Poppins", ...defaultTheme.fontFamily.sans] /* Default */
   },
  },
  plugins: [],

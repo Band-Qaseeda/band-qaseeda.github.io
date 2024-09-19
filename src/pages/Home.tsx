@@ -99,7 +99,7 @@ export default function Home() {
               <div className="py-[3rem] lg:py-0 relative flex flex-col justify-center text-center w-full h-full">
                 <div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-dmserif font-bold max-w-3xl drop-shadow">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl  font-bold max-w-3xl drop-shadow">
                       We are the Artisans and Voices of Tradition!
                     </h1>
                     <p className="text-sm sm:text-md md:text-lg lg:text-xl mt-4 md:mt-8 text-gray-300 max-w-3xl">
@@ -143,7 +143,7 @@ export default function Home() {
         <div className="my-8 w-full max-w-7xl mx-auto p-8">
           <div className="w-full h-full flex justify-between items-center gap-4 md:gap-8">
             <div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow">
                 Who are we?
               </h1>
               <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 text-gray-300 max-w-xl">
@@ -167,7 +167,7 @@ export default function Home() {
               className="hidden md:block w-full h-[300px] md:h-[400px] lg:h-[500px] lg:max-w-xl object-cover rounded-lg bg-accent"
             />
             <div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow">
                 Our Performances
               </h1>
               <p className="text-sm sm:text-md md:text-lg mt-4 md:mt-8 text-gray-300 max-w-xl">
@@ -184,7 +184,7 @@ export default function Home() {
 
       <div className="w-full max-w-7xl mx-auto p-8 pt-0">
         <div className="mt-16 md:mt-0">
-          <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-dmserif font-bold drop-shadow mt-12 md:mt-[100px] mb-8">
+          <h1 className="text-center text-3xl sm:text-4xl md:text-5xl  font-bold drop-shadow mt-12 md:mt-[100px] mb-8">
             Discography
           </h1>
           <div className="relative my-8 w-full rounded-[1.375rem] lg:rounded-[2.375rem] bg-cover bg-[url('/images/4557126.jpg')] bg-center">
@@ -260,7 +260,7 @@ export default function Home() {
           </div>
 
           <div className="my-8 w-full py-8 lg:py-12">
-            <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-dmserif font-bold drop-shadow mb-8">
+            <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow mb-8">
               Upcoming Events
             </h1>
             <Slider

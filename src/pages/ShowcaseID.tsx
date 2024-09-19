@@ -59,7 +59,7 @@ export const ShowcaseID = () => {
         </div>
 
         {/* Press Release */}
-        <h1 className="mt-8 lg:mt-24 text-xl sm:text-2xl md:text-3xl font-dmserif font-bold drop-shadow mb-4 border-b-[4px] pb-1 border-accent/50 w-fit">
+        <h1 className="mt-8 lg:mt-24 text-xl sm:text-2xl md:text-3xl  font-bold drop-shadow mb-4 border-b-[4px] pb-1 border-accent/50 w-fit">
           Press Release
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
