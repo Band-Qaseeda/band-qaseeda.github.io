@@ -66,7 +66,7 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <div className="h-fit md:min-h-[50vh] lg:min-h-[75vh] flex items-center justify-center">
+            <div className="h-fit md:min-h-[50vh] lg:min-h-[70vh] flex items-center justify-center">
               <div className="py-[3rem] lg:py-0 relative flex flex-col justify-center text-center w-full h-full">
                 <div>
                   <div className="relative z-10 flex flex-col items-center">
