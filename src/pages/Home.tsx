@@ -1,19 +1,47 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import discographySlider from "../utils/discographySlider";
 import discographyLists from "../utils/discography.json";
 import { Link } from "react-router-dom";
+import axios from "axios";
 import Slider from "react-slick";
 import { Helmet } from "react-helmet";
-import eventsList from "../utils/events.json";
 import "../assets/carousel-custom.css";
 import Button from "../components/Button";
 
+interface Events {
+  date: string;
+  time: string;
+  poster: string;
+}
+
 export default function Home() {
-  const events = eventsList.filter(
-    (e) => new Date(Date.parse(e.date)) >= new Date()
-  );
+  const [events, setEvents] = useState<Events[]>([]);
+  const SPREADSHEET_ID = "1WzQICXQ0tshJ2axEqH2kLFSjHzlBv1UFOdRhmVYCdIY";
+  const API_KEY = "AIzaSyBppRNRXIBmg_RFrIQl4Gpb_YlFsWUJK_c";
+  const RANGE = "Sheet1!A1:C10";
+
   useEffect(() => {
     discographySlider();
+    axios
+      .get(
+        `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${API_KEY}`
+      )
+      .then((response) => {
+        let obj = response.data.values.slice(1);
+        obj = obj
+          .map((a: ["date", "time", "poster"]) => {
+            return {
+              date: a[0],
+              time: a[1],
+              poster: a[2],
+            };
+          })
+          .filter((e: Events) => new Date(Date.parse(e.date)) >= new Date());
+        setEvents(obj);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
   }, []);
 
   return (
@@ -235,7 +263,6 @@ export default function Home() {
               Upcoming Events
             </h1>
             <Slider
-              dots={true}
               infinite={false}
               speed={500}
               slidesToShow={1}
@@ -243,39 +270,42 @@ export default function Home() {
               className="max-w-2xl mx-auto !h-fit"
             >
               {events.length > 0 ? (
-                events.map((e, i) => (
-                  <div
-                    className="w-full bg-primary text-neutral p-4 lg:p-8 relative"
-                    key={i}
-                  >
-                    <div
-                      className="absolute top-2 left-2 border-2 border-accent text-accent rounded-full p-1 px-3"
-                      hidden={new Date(Date.parse(e.date)) < new Date()}
-                    >
-                      <p className="text-sm md:text-md flex gap-2 items-center justify-center font-bold">
-                        <svg
-                          id="dot"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="w-1.5 h-1.5 animate-ping"
-                        >
-                          <circle cx="10" cy="10" r="10" />
-                        </svg>
-                        Upcoming
-                      </p>
+                events
+                  .sort(
+                    (a, b) =>
+                      new Date(b.date + " " + b.time).getTime() -
+                      new Date(a.date + " " + a.time).getTime()
+                  )
+                  .map((e, i) => (
+                    <div className="w-full p-4 lg:p-8 relative" key={i}>
+                      <div
+                        className="absolute top-2 left-2 border-2 border-accent text-accent rounded-full p-1 px-3"
+                        hidden={new Date(e.date + " " + e.time) < new Date()}
+                      >
+                        <p className="text-sm md:text-md flex gap-2 items-center justify-center font-bold">
+                          <svg
+                            id="dot"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="w-1.5 h-1.5 animate-ping"
+                          >
+                            <circle cx="10" cy="10" r="10" />
+                          </svg>
+                          Upcoming
+                        </p>
+                      </div>
+                      <img
+                        src={e.poster}
+                        alt="Event Poster"
+                        className="w-full h-[400px] object-contain"
+                      />
                     </div>
-                    <img
-                      src={"/images/" + e.poster}
-                      alt="Event Poster"
-                      className="w-full h-[400px] object-contain"
-                    />
-                  </div>
-                ))
+                  ))
               ) : (
-                <div className="w-full bg-primary text-neutral rounded-md p-4 md:p-8">
-                  <h1 className="text-md sm:text-xl font-medium">
-                    No Upcoming Events
+                <div className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8">
+                  <h1 className="text-md sm:text-xl md:text-2xl font-medium">
+                    This section is under construction.
                   </h1>
                 </div>
               )}

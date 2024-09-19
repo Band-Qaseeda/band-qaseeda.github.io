@@ -1,28 +1,62 @@
 import Slider from "react-slick";
-import eventsAll from "../utils/events.json";
 import "../assets/carousel-custom.css";
 import { Helmet } from "react-helmet";
 import Button from "../components/Button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+interface Events {
+  date: string;
+  time: string;
+  poster: string;
+}
 
 export const Events = () => {
-  const [events, setEvents] = useState(eventsAll);
+  const [eventsAll, setEventsAll] = useState<Events[]>([]);
+  const [events, setEvents] = useState<Events[]>([]);
   const [startDate, setStartDate] = useState<string>("");
   const [endDate, setEndDate] = useState<string>("");
+  const SPREADSHEET_ID = "1WzQICXQ0tshJ2axEqH2kLFSjHzlBv1UFOdRhmVYCdIY";
+  const API_KEY = "AIzaSyBppRNRXIBmg_RFrIQl4Gpb_YlFsWUJK_c";
+  const RANGE = "Sheet1!A1:C10";
 
   const searchByDate = () => {
     const start = startDate ? new Date(startDate) : null;
     const end = endDate ? new Date(endDate) : null;
 
-    setEvents(
-      eventsAll.filter((event) => {
-        const eventDate = new Date(event.date);
-        const afterStart = start ? eventDate >= start : true;
-        const beforeEnd = end ? eventDate <= end : true;
-        return afterStart && beforeEnd;
-      })
-    );
+    if (eventsAll.length > 0) {
+      setEvents(
+        eventsAll.filter((event) => {
+          const eventDate = new Date(event.date);
+          const afterStart = start ? eventDate >= start : true;
+          const beforeEnd = end ? eventDate <= end : true;
+          return afterStart && beforeEnd;
+        })
+      );
+    }
   };
+
+  useEffect(() => {
+    axios
+      .get(
+        `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${API_KEY}`
+      )
+      .then((response) => {
+        let obj = response.data.values.slice(1);
+        obj = obj.map((a: ["date", "time", "poster"]) => {
+          return {
+            date: a[0],
+            time: a[1],
+            poster: a[2],
+          };
+        });
+        setEventsAll(obj);
+        setEvents(obj);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
   return (
     <>
       <Helmet>
@@ -127,16 +161,14 @@ export const Events = () => {
             events
               .sort(
                 (a, b) =>
-                  new Date(b.date).getTime() - new Date(a.date).getTime()
+                  new Date(b.date + " " + b.time).getTime() -
+                  new Date(a.date + " " + a.time).getTime()
               )
               .map((e, i) => (
-                <div
-                  className="w-full bg-primary text-neutral p-4 lg:p-8 relative"
-                  key={i}
-                >
+                <div className="w-full p-4 lg:p-8 relative" key={i}>
                   <div
                     className="absolute top-2 left-2 border-2 border-accent text-accent rounded-full p-1 px-3"
-                    hidden={new Date(e.date) < new Date()}
+                    hidden={new Date(e.date + " " + e.time) < new Date()}
                   >
                     <p className="text-sm md:text-md flex gap-2 items-center justify-center font-bold">
                       <svg
@@ -152,7 +184,7 @@ export const Events = () => {
                     </p>
                   </div>
                   <img
-                    src={"/images/" + e.poster}
+                    src={e.poster}
                     alt="Event Poster"
                     className="w-full h-[400px] object-contain"
                   />

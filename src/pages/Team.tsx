@@ -9,12 +9,12 @@ export const Team = () => {
           Team
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 xl:gap-y-24">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-8 xl:gap-y-24">
           {profiles.map((v, i) => (
             <div key={i} className="flex justify-center">
               <Link
                 to={`/biography/${v?.prefix}`}
-                className="rounded-lg text-neutral w-full max-w-[300px] hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100 relative group"
+                className="rounded-lg text-neutral w-full max-w-[300px] hover:scale-105 hover:opacity-95 transition-transform duration-100 active:scale-100 relative group h-full relative"
               >
                 <div className="relative">
                   <img
@@ -23,19 +23,19 @@ export const Team = () => {
                     className="w-full aspect-square object-cover bg-center bg-transparent group-hover:opacity-70 relative z-10"
                   />
                   <div className="absolute bottom-0 inset-0 flex justify-center items-center">
-                    <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 -mb-[170px] group-hover:to-accent/60"></div>
+                    <div className="w-full h-full rounded-t-full bg-gradient-to-b from-transparent to-accent z-0 md:-mb-[170px] group-hover:to-accent/60"></div>
                   </div>
                 </div>
-                <div className="p-5 relative z-10 bg-primary rounded-b-md">
-                  <h1 className="text-md sm:text-xl font-medium group-hover:blur-sm">
+                <div className="p-3 md:p-5 z-10 bg-primary rounded-b-md">
+                  <h1 className="sm:text-xl font-medium group-hover:italic truncate">
                     {v?.name}
                   </h1>
-                  <p className="text-gray-600 flex gap-1 items-center mt-1">
-                    <svg
+                  <p className="text-gray-600 text-sm md:text-md flex gap-1 items-center mt-1 truncate">
+                    <div><svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="size-5"
+                      className="size-4 md:size-5"
                     >
                       <path
                         fillRule="evenodd"
@@ -43,7 +43,7 @@ export const Team = () => {
                         clipRule="evenodd"
                       />
                       <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
-                    </svg>
+                    </svg></div>
 
                     {v?.bio?.role}
                   </p>

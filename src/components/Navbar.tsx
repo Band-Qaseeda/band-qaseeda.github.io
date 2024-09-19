@@ -10,10 +10,9 @@ export default function Navbar({
   setOpenMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   const menuButton = useRef<HTMLButtonElement | null>(null);
-
   const navbarLinkClass = ({ isActive }: { isActive: boolean }) =>
-    "pb-0.5 hover:text-primary/80 transition-all duration-100 " +
-    (isActive && "border-b-2 border-primary/50");
+    "pb-0.5 hover:text-primary/80 transition-all duration-100" +
+    (isActive && " border-b-2 border-primary/50");
   const NavLinks = () => (
     <>
       <NavLink
@@ -119,9 +118,9 @@ export default function Navbar({
             </button>
           </div>
         </div>
-        <div className="lg:hidden w-full h-full" hidden={!openMenu}>
+        <div className="lg:hidden w-full h-[90%]" hidden={!openMenu}>
           <div className="mt-4 px-5 w-full h-full max-w-7xl mx-auto">
-            <ul className="flex flex-col w-full h-full gap-3 text-xl md:text-3xl justify-center items-center font-medium">
+            <ul className="flex flex-col w-full h-full gap-4 text-xl md:text-3xl justify-center items-center font-medium">
               <NavLinks />
             </ul>
           </div>
