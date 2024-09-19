@@ -96,7 +96,10 @@ export default function Navbar({
             </ul>
             <button
               ref={menuButton}
-              className="lg:hidden p-1.5 rounded-full hover:bg-primary/20 active:scale-90 active:bg-primary/25"
+              className={
+                "lg:hidden p-2 rounded-full hover:bg-primary/20 active:scale-90 active:bg-primary/25" +
+                (openMenu && " bg-primary/20")
+              }
               onClick={() => setOpenMenu(!openMenu)}
             >
               <svg
@@ -118,7 +121,7 @@ export default function Navbar({
         </div>
         <div className="lg:hidden w-full h-full" hidden={!openMenu}>
           <div className="mt-4 px-5 w-full h-full max-w-7xl mx-auto">
-            <ul className="flex flex-col w-full h-full gap-3 text-xl justify-center items-center font-medium">
+            <ul className="flex flex-col w-full h-full gap-3 text-xl md:text-3xl justify-center items-center font-medium">
               <NavLinks />
             </ul>
           </div>
