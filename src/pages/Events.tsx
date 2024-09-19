@@ -4,6 +4,9 @@ import { Helmet } from "react-helmet";
 import Button from "../components/Button";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import FullCalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import ShowEvent from "../components/ShowEvent";
 
 interface Events {
   date: string;
@@ -16,6 +19,8 @@ export const Events = () => {
   const [events, setEvents] = useState<Events[]>([]);
   const [startDate, setStartDate] = useState<string>("");
   const [endDate, setEndDate] = useState<string>("");
+  const [showEvent, setShowEvent] = useState<boolean>(false);
+  const [dataOfEvent, setDataOfEvent] = useState({});
   const SPREADSHEET_ID = "1WzQICXQ0tshJ2axEqH2kLFSjHzlBv1UFOdRhmVYCdIY";
   const API_KEY = "AIzaSyBppRNRXIBmg_RFrIQl4Gpb_YlFsWUJK_c";
   const RANGE = "Sheet1!A1:C10";
@@ -150,55 +155,78 @@ export const Events = () => {
           </div>
         </div>
 
-        <Slider
-          infinite={false}
-          speed={500}
-          slidesToShow={1}
-          slidesToScroll={1}
-          className="max-w-2xl mx-auto !h-fit"
-        >
-          {events.length > 0 ? (
-            events
-              .sort(
-                (a, b) =>
-                  new Date(b.date + " " + b.time).getTime() -
-                  new Date(a.date + " " + a.time).getTime()
-              )
-              .map((e, i) => (
-                <div className="w-full p-4 lg:p-8 relative" key={i}>
-                  <div
-                    className="absolute top-2 left-2 border-2 border-accent text-accent rounded-full p-1 px-3"
-                    hidden={new Date(e.date + " " + e.time) < new Date()}
-                  >
-                    <p className="text-sm md:text-md flex gap-2 items-center justify-center font-bold">
-                      <svg
-                        id="dot"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        className="w-1.5 h-1.5 animate-ping"
+        <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 gap-y-8 md:p-8">
+          <div>
+            <Slider
+              infinite={false}
+              speed={500}
+              slidesToShow={1}
+              slidesToScroll={1}
+              className="max-w-lg mx-auto !h-fit"
+            >
+              {events.length > 0 ? (
+                events
+                  .sort(
+                    (a, b) =>
+                      new Date(b.date + " " + b.time).getTime() -
+                      new Date(a.date + " " + a.time).getTime()
+                  )
+                  .map((e, i) => (
+                    <div className="w-full p-4 lg:p-8 relative" key={i}>
+                      <div
+                        className="absolute top-2 left-2 border-2 border-accent text-accent rounded-full p-1 px-3"
+                        hidden={new Date(e.date + " " + e.time) < new Date()}
                       >
-                        <circle cx="10" cy="10" r="10" />
-                      </svg>
-                      Upcoming
-                    </p>
-                  </div>
-                  <img
-                    src={e.poster}
-                    alt="Event Poster"
-                    className="w-full h-[400px] object-contain"
-                  />
+                        <p className="text-sm md:text-md flex gap-2 items-center justify-center font-bold">
+                          <svg
+                            id="dot"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="w-1.5 h-1.5 animate-ping"
+                          >
+                            <circle cx="10" cy="10" r="10" />
+                          </svg>
+                          Upcoming
+                        </p>
+                      </div>
+                      <img
+                        src={e.poster}
+                        alt="Event Poster"
+                        className="w-full h-[400px] object-contain"
+                      />
+                    </div>
+                  ))
+              ) : (
+                <div className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8">
+                  <h1 className="text-md sm:text-xl md:text-2xl font-medium">
+                    This section is under construction.
+                  </h1>
                 </div>
-              ))
-          ) : (
-            <div className="w-full bg-primary text-neutral rounded-md p-4 lg:p-8">
-              <h1 className="text-md sm:text-xl md:text-2xl font-medium">
-                This section is under construction.
-              </h1>
-            </div>
-          )}
-        </Slider>
+              )}
+            </Slider>
+          </div>
+
+          <div className="w-full max-w-2xl mx-auto">
+            <FullCalendar
+              plugins={[dayGridPlugin]}
+              initialView="dayGridMonth"
+              viewClassNames="w-fit"
+              events={eventsAll.map((e) => {
+                return {
+                  date: new Date(e.date + " " + e.time).toISOString(),
+                  extendedProps: { poster: e.poster },
+                };
+              })}
+              eventClick={(a) => {
+                setShowEvent(true);
+                setDataOfEvent(a.event.extendedProps);
+              }}
+            />
+          </div>
+        </div>
       </div>
+      <ShowEvent show={showEvent} setShow={setShowEvent} data={dataOfEvent} />
     </>
   );
 };

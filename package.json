@@ -14,6 +14,9 @@
     "publish": "gh-pages -d dist --cname www.qaseeda.org"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
     "axios": "^1.7.7",
     "js-cookie": "^3.0.5",
     "react": "^18.2.0",
