@@ -78,7 +78,7 @@ export const Events = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Helmet>
-      <div className="w-full p-8">
+      <div className="w-full p-4">
         <h1 className="text-center text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow mb-8">
           All Events
         </h1>
@@ -162,7 +162,7 @@ export const Events = () => {
 
         <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 gap-y-8 md:p-8">
           <div>
-            <div className="mb-4 flex items-center">
+            <div className="md:mb-4 flex items-center">
               <input
                 id="default-checkbox"
                 type="checkbox"
@@ -182,7 +182,7 @@ export const Events = () => {
               speed={500}
               slidesToShow={1}
               slidesToScroll={1}
-              className="max-w-lg mx-auto !h-fit"
+              className="mx-4 max-w-lg md:mx-auto !h-fit"
             >
               {events.length > 0 ? (
                 events
@@ -192,7 +192,7 @@ export const Events = () => {
                       new Date(a.date + " " + a.time).getTime()
                   )
                   .map((e, i) => (
-                    <div className="w-full p-4 lg:p-8 relative" key={i}>
+                    <div className="w-full relative" key={i}>
                       <div
                         className="absolute top-2 left-2 border-2 border-accent text-accent rounded-full p-1 px-3"
                         hidden={new Date(e.date + " " + e.time) < new Date()}

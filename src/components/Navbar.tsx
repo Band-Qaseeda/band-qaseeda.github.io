@@ -118,7 +118,7 @@ export default function Navbar({
             </button>
           </div>
         </div>
-        <div className="lg:hidden w-full h-[90%]" hidden={!openMenu}>
+        <div className="lg:hidden w-full h-[80%]" hidden={!openMenu}>
           <div className="mt-4 px-5 w-full h-full max-w-7xl mx-auto">
             <ul className="flex flex-col w-full h-full gap-4 text-xl md:text-3xl justify-center items-center font-medium">
               <NavLinks />

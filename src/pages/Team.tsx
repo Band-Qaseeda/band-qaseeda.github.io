@@ -8,7 +8,7 @@ export const Team = () => {
       <Helmet>
         <title>Our Team - Qaseeda Band</title>
       </Helmet>
-      <div className="w-full max-w-7xl mx-auto p-8">
+      <div className="w-full max-w-7xl mx-auto p-4">
         <h1 className="text-center text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow mb-8">
           Team
         </h1>

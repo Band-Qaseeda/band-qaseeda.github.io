@@ -10,3 +10,20 @@
     bottom: 0;
   }
 }
+
+:root {
+  --fc-border-color: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 900px) {
+  .fc-toolbar-title {
+    font-size: 1.2rem !important;
+    font-weight: 500;
+  }
+  .fc .fc-button {
+    padding: 5px 4px !important;
+  }
+  .fc-col-header-cell-cushion {
+    font-weight: 500 !important;
+  }
+}

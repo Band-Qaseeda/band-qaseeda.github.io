@@ -9,7 +9,7 @@ export const Gallery = () => {
       </Helmet>
       <div className="w-full max-w-7xl mx-auto">
         <div className="flex flex-col gap-8">
-          <div className="w-full p-8">
+          <div className="w-full p-4">
             <h1 className="text-center text-3xl md:text-4xl lg:text-5xl  font-bold drop-shadow mb-10">
               Gallery
             </h1>

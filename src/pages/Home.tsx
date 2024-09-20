@@ -62,7 +62,7 @@ export default function Home() {
 
       <div className="w-full bg-[url('/images/bg.jpg')] bg-center bg-contain">
         <div className="w-full bg-gradient-to-b lg:bg-gradient-to-t from-neutral to-neutral/40 lg:via-neutral/40 lg:to-neutral">
-          <div className="w-full max-w-7xl mx-auto p-8 relative">
+          <div className="w-full max-w-7xl mx-auto p-4 relative">
             <div className="absolute top-20 left-20 animate-pulse hidden lg:block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <div className="h-fit md:min-h-[50vh] lg:min-h-[70vh] flex items-center justify-center">
+            <div className="h-fit md:min-h-[50vh] lg:min-h-[80vh] flex items-center justify-center">
               <div className="py-[3rem] lg:py-0 relative flex flex-col justify-center text-center w-full h-full">
                 <div>
                   <div className="relative z-10 flex flex-col items-center">

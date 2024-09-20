@@ -6,7 +6,7 @@ export default function Contact() {
       <Helmet>
         <title>Contact Us - Qaseeda Band</title>
       </Helmet>
-      <div className="w-full max-w-7xl mx-auto p-8">
+      <div className="w-full max-w-7xl mx-auto p-4">
         <h2 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
           Contact Info
         </h2>
