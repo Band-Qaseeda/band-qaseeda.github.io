@@ -1,119 +1,253 @@
 [
-  {
-    "name": "Mohammed Shaheen",
-    "prefix": "Mohammed_Shaheen",
-    "bio": {
-      "role": "Founder & Artist",
-      "fullname": "Mohammed Shaheenur Rahman",
-      "edu": "University of Dhaka",
-      "desc": "Mohammed Shahinur Rahman is currently studying International Relations at the University of Dhaka. With a deep interest in art and culture, he founded the band 'Qaseeda', which focuses on the cultural roots and heritage of this region. From a young age, he has been involved in music, recitation, theater, writing, and other aspects of the arts, earning national recognition, including gold and silver medals.\nShahinur is passionate about working with the literature and culture of his roots. Additionally, he has successfully contributed to the editorial teams of various magazines, including 'Chitran', 'Kootonitik', 'Shorgol', and 'Banglanama'."
-    }
+ {
+  "name": "Md. Shahinur Rahman",
+  "prefix": "Shahinur_Rahman",
+  "bio": {
+   "role": "Founder & Artist",
+   "fullname": "Mohammed Shahinur Rahman",
+   "desc": "Mohammed Shahinur Rahman is currently studying International Relations at the University of Dhaka. With a deep interest in art and culture, he founded the band 'Qaseeda', which focuses on the cultural roots and heritage of this region. From a young age, he has been involved in music, recitation, theater, writing, and other aspects of the arts, earning national recognition, including gold and silver medals.\nShahinur is passionate about working with the literature and culture of his roots. Additionally, he has successfully contributed to the editorial teams of various magazines, including 'Chitran', 'Kootonitik', 'Shorgol', and 'Banglanama'.",
+   "birth": "10 December 2002",
+   "edu": "University of Dhaka",
+   "dept": "International Relations",
+   "awards": [
+    "Gold Medal & Silver Medalist in National Recitation, Essay Writing and Speech"
+   ],
+   "known": [
+    "Founder of 'Band Qaseeda'",
+    "Editor at 'Chitran', 'Shorgol', 'Kutnaitik', 'Banglanama'",
+    "Coordinator at 'Patron', an intellectual academic platform, specially for art, culture and literature",
+    "Coordinator at 'School of Language, Literature and Art', an intellectual reading circle, specially for art, culture and literature"
+   ]
   },
-  {
-    "name": "Ahmad Ataullah Salman",
-    "prefix": "Ahmad_Ataullah_Salman",
-    "bio": {
-      "role": "Co-founder & Artist"
-    }
-  },
-  {
-    "name": "Saad Al Amin",
-    "prefix": "Saad_Al_Amin",
-    "bio": {
-      "role": "Marketing Head & Artist"
-    }
-  },
-  {
-    "name": "Nazmus Sakib",
-    "prefix": "Nazmus_Sakib",
-    "bio": {
-      "role": "Artist",
-      "edu": "University of Dhaka",
-      "desc": "Nazmus Sakib is a student of honors in music at the University of Dhaka, specializing as a vocalist and rhythm guitarist. He primarily enjoys Sufi, Nazrul, classical, folk, and melodious songs, regardless of genre. Currently, he is working with one of the most popular bands, 'Qaseeda,' as both a vocalist and guitarist.",
-      "media": []
-    }
-  },
-  {
-    "name": "N A Junayed",
-    "prefix": "N_A_Junayed",
-    "bio": {
-      "role": "Artist",
-      "edu": "Asia Pacific University",
-      "desc": "N A Junayed is currently pursuing an undergraduate degree in English Literature and Language at Asia Pacific University. From a young age, he has been deeply passionate about music and has collaborated with several artists, including a prominent musician from Bangladesh. With a strong affinity for both classic and pop music, Junayed is now one of the vocalists for the renowned band Qaseeda."
-    }
-  },
-  {
-    "name": "Umaer Ibn Zohir",
-    "prefix": "Umaer_Ibn_Zohir",
-    "bio": {
-      "role": "Artist"
-    }
-  },
-  {
-    "name": "Muaz Mostafa",
-    "prefix": "Muaz_Mostafa",
-    "bio": {
-      "role": "Artist",
-      "edu": "Manarat International University",
-      "desc": "Muaz Mostafa is currently studying in the English department at Manarat International University. From a young age, he had a deep passion for music, which led him to pursue singing and collaborate with various artists. He has worked with the renowned Bangladeshi musical group, Saimum Shilpigoshthi. A lover of classical music, Muaz is now a vocalist for the popular band 'Qaseeda.'"
-    }
-  },
-  {
-    "name": "Imam HR",
-    "prefix": "Imam_HR",
-    "bio": {
-      "role": "Artist"
-    }
-  },
-  {
-    "name": "Md Rahamat Ullah",
-    "prefix": "Md_Rahamat_Ullah",
-    "bio": {
-      "role": "Guitarist",
-      "edu": "University of Dhaka",
-      "desc": "Md Rahamat Ullah is currently pursuing his studies in the Music Department at the University of Dhaka. He has been involved with music since 2015 and has been eager to learn ever since. He has a special interest in string instruments, and his musical journey began with learning the guitar. Over time, he has tried learning various instruments, including the guitar, ukulele, mandolin, dotara, harmonica, and harmonium. He has plans to learn and collect more string instruments in the future.\nThroughout his musical career, he has had the opportunity to work with many esteemed artists and bands. Currently, he serves as the lead guitarist for 'Band Qaseeda.' In 2022, he founded his music school, 'Guitar & Ukulele Learning Center,' where he is the head instructor. Over 200 students have learned guitar and ukulele at his school so far.\nIn 2024, he started his music instrument business, 'Guitar & Ukulele Shop,' where all kinds of instruments are available. While his operations are currently online, he dreams of opening a physical outlet in a central location in Dhaka one day.\nOne of his biggest dreams is to have his own music studio, where he can create countless melodies. His wife, Jannatul Ferdous, is his greatest source of inspiration and his companion on this journey of dreams. All dreams will one day touch the sky. If you dream, it will come true. For that, you must ask the Almighty Allah. As He says: 'If you ask, it will happen.'"
-    }
-  },
-  {
-    "name": "Sanjidul Islam Shihab",
-    "prefix": "Sanjidul_Islam_Shihab",
-    "bio": {
-      "role": "Kahonist",
-      "edu": "University of Dhaka",
-      "desc": "Sanjidul Islam Sihab is a passionately cultural minded person. He is currently studying in the Department of Political Science at University of Dhaka. He is a Teacher in Bangla at  Icon Plus University Admission Coaching since 2022. He has strong interest in music since childhood and has played various instruments in various stage programs.   His interest in playing Kahon/Kazon has been active since his admission in Dhaka University and since 2022 he has been playing Kahon regularly in various programs.  He is currently engaged as a Kahonist of Qaseeda Band"
-    }
-  },
-  {
-    "name": "Asadullahil Galib",
-    "prefix": "Asadullahil_Galib",
-    "bio": {
-      "role": "Creative Team"
-    }
-  },
-  {
-    "name": "Munawar Hasnain",
-    "prefix": "Munawar_Hasnain",
-    "bio": {
-      "role": "Creative Team",
-      "desc": "Munawar Hasnain was born in Narsingdi and raised in Dhaka. Growing up in a cultural family, he has been inclined towards the arts from a young age. Munawar mainly works in song lyric writing, scriptwriting, and journalism. He is also highly skilled in calligraphy. He won the Best Calligrapher Award at the International Quran Calligraphy Competition in 2022. He has a deep interest in Sufi literature, mystic poetry, and spiritual writings. Additionally, he is a member of the creative team for the band 'Qaseeda'."
-    }
-  },
-  {
-    "name": "Rajjakul Islam Robi",
-    "prefix": "Rajjakul_Islam_Robi",
-    "bio": {
-      "role": "Artist",
-      "edu": "University of Dhaka",
-      "desc": "Rajjakul Islam Robi is a student of honors in music at the University of Dhaka, specializing as a vocalist. He primarily enjoys Sufi, Nazrul, classical, folk, and melodious songs, regardless of genre. He won National Award for Patriotic Song 'National Education Week 2016 & 2022'. He is a regular singer of Bangladesh Betar & Television.  Currently,  he is working with one of the most popular bands, 'Qaseeda,' as both a vocalist and harmonium player."
-    }
-  },
-  {
-    "name": "Mohammad Sefatullah",
-    "prefix": "Mohammad_Sefatullah",
-    "bio": {
-      "role": "Chief Technology Officer",
-      "edu": "Tamirul Millat Kamil Madrasah",
-      "desc": ""
-    }
+  "social": {
+   "facebook": "https://www.facebook.com/profile.php?id=100012240698541",
+   "instagram": "https://www.instagram.com/mohammedshaheen1012",
+   "linkedin": "https://www.linkedin.com/in/md-shahinur-rahman-9b64a7234"
   }
+ },
+ {
+  "name": "Ahmad Ataullah Salman",
+  "prefix": "Ahmad_Ataullah_Salman",
+  "bio": {
+   "role": "Co-founder & Artist",
+   "edu": "University of Dhaka",
+   "birth": "05 July 1999",
+   "awards": ["Champion in Islamic Olympiad 2024"],
+   "known": ["Co-founder of 'Band Qaseeda'", "Nazrul Singer"]
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/ataullah.salman04555",
+   "instagram": "https://www.instagram.com/ahmad_ataullah_salman",
+   "youtube": "https://youtube.com/@ahmadataullahsalman04555"
+  }
+ },
+ {
+  "name": "Saad Al Amin",
+  "prefix": "Saad_Al_Amin",
+  "bio": {
+   "role": "Marketing Head & Artist",
+   "desc": "Saad Al Amin is a Bangladeshi artist, film maker and graphics designer born 3 August 2005 in Dhaka, Bangladesh. He is now working as a leading personality in tons of activities. Saad is also a very well known personality in Bangladesh who has been working hard to make a difference in Bangladesh. He is also very passionate about working with youth. He founded Muktir Ghonta and Videophics in 2018. Muktir Ghonta is an organization that helps youth to develop their potential through Creative Works. He has also founded Creative Youth Community - CYC which helps to develop the skills of the youth through arts & culture related activities.\nAt present, he is also serving as Campus Ambassador at English Olympiad and as Photography & Design Artist at 100 Million Mindset. As a Graphics Design Artist he has worked on more than 300 projects with international Companies & Individuals. He has been recognized for his work both nationally and internationally. He was chosen as one of the top six finalists of the Glocal Teen Hero Award as an Artist in 2022 and he was also awarded the Elan Record USA Best Designer Award in 2020.",
+   "edu": "Tamirul Millat Kamil Madrasah",
+   "birth": "03 August 2005",
+   "awards": [
+    "Elan Record USA Best Designer Award 2020",
+    "Glocal Teen Hero Award 2022"
+   ],
+   "known": [
+    "Founder of 'Muktir Ghonta' & 'Videophics'",
+    "Founder of 'Creative Youth Community - CYC'",
+    "Campus Ambassador at English Olympiad",
+    "Photography & Design Artist at 100 Million Mindset"
+   ]
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/saadalamin04",
+   "instagram": "https://www.instagram.com/saadalamin2004/",
+   "linkedin": "https://www.linkedin.com/in/saadalamin04/",
+   "youtube": "https://www.youtube.com/c/SaadAlamin",
+   "spotify": "https://open.spotify.com/artist/0TjhCbB10JrsKa5AIO0o6K"
+  }
+ },
+ {
+  "name": "Nazmus Sakib",
+  "prefix": "Nazmus_Sakib",
+  "bio": {
+   "role": "Artist",
+   "desc": "Nazmus Sakib is a student of honors in music at the University of Dhaka, specializing as a vocalist and rhythm guitarist. He primarily enjoys Sufi, Nazrul, classical, folk, and melodious songs, regardless of genre. Currently, he is working with one of the most popular bands, 'Qaseeda,' as both a vocalist and guitarist.",
+   "birth": "19 October 2001",
+   "edu": "University of Dhaka",
+   "dept": "Music"
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/nazmus.sakib.90475",
+   "instagram": "https://www.instagram.com/nsakib_07"
+  }
+ },
+ {
+  "name": "N A Junayed",
+  "prefix": "N_A_Junayed",
+  "bio": {
+   "role": "Artist",
+   "desc": "N A Junayed is currently pursuing an undergraduate degree in English Literature and Language at Asia Pacific University. From a young age, he has been deeply passionate about music and has collaborated with several artists, including a prominent musician from Bangladesh. With a strong affinity for both classic and pop music, Junayed is now one of the vocalists for the renowned band Qaseeda.",
+   "birth": "07 October 1999",
+   "edu": "Asia Pacific University",
+   "dept": "English Literature and Language",
+   "known": ["Vocalist for 'Band Qaseeda'"]
+  },
+  "social": {
+   "youtube": "https://youtube.com/@najunayed"
+  }
+ },
+ {
+  "name": "Umaer Ibn Zahir",
+  "prefix": "Umaer_Ibn_Zahir",
+  "bio": {
+   "role": "Artist",
+   "birth": "09 September 2003",
+   "edu": "Uttara University",
+   "dept": "English Literature and Language",
+   "awards": [
+    "National Cultural Award 2019",
+    "Searader Sera Champion 2020",
+    "Second Runner Up in ATN Bangla Cultural Competetion 2024"
+   ]
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/umaer.uij"
+  }
+ },
+ {
+  "name": "Muaz Mostafa",
+  "prefix": "Muaz_Mostafa",
+  "bio": {
+   "role": "Artist",
+   "desc": "Muaz Mostafa is currently studying in the English department at Manarat International University. From a young age, he had a deep passion for music, which led him to pursue singing and collaborate with various artists. He has worked with the renowned Bangladeshi musical group, Saimum Shilpigoshthi. A lover of classical music, Muaz is now a vocalist for the popular band 'Qaseeda.'",
+   "birth": "05 December 2002",
+   "edu": "Manarat International University",
+   "dept": "English Literature and Language",
+   "known": ["Regular singer of SATV programme 'Ganer Shera Gan'"]
+  },
+  "social": {
+   "instagram": "https://www.instagram.com/muazmostafa310",
+   "facebook": "https://www.facebook.com/muaz.mostafa.7"
+  }
+ },
+ {
+  "name": "Imam Hossain",
+  "prefix": "Imam_Hossain",
+  "bio": {
+   "role": "Artist",
+   "edu": "Dhaka College"
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/imam.hr.33"
+  }
+ },
+ {
+  "name": "Rahamat Ullah",
+  "prefix": "Rahamat_Ullah",
+  "bio": {
+   "role": "Guitarist",
+   "fullname": "Md. Rahamat Ullah",
+   "desc": "Md. Rahamat Ullah is currently pursuing his studies in the Music Department at the University of Dhaka. He has been involved with music since 2015 and has been eager to learn ever since. He has a special interest in string instruments, and his musical journey began with learning the guitar. Over time, he has tried learning various instruments, including the guitar, ukulele, mandolin, dotara, harmonica, and harmonium. He has plans to learn and collect more string instruments in the future.\nThroughout his musical career, he has had the opportunity to work with many esteemed artists and bands. Currently, he serves as the lead guitarist for 'Band Qaseeda.' In 2022, he founded his music school, 'Guitar & Ukulele Learning Center,' where he is the head instructor. Over 200 students have learned guitar and ukulele at his school so far.\nIn 2024, he started his music instrument business, 'Guitar & Ukulele Shop,' where all kinds of instruments are available. While his operations are currently online, he dreams of opening a physical outlet in a central location in Dhaka one day.\nOne of his biggest dreams is to have his own music studio, where he can create countless melodies. His wife, Jannatul Ferdous, is his greatest source of inspiration and his companion on this journey of dreams. All dreams will one day touch the sky. If you dream, it will come true. For that, you must ask the Almighty Allah. As He says: 'If you ask, it will happen.'",
+   "edu": "University of Dhaka",
+   "dept": "Music",
+   "birth": "17 November 2001",
+   "known": [
+    "Founder of 'Guitar & Ukulele Learning Center'",
+    "Founder of 'Guitar & Ukulele Shop'",
+    "Lead Guitarist for 'Band Qaseeda'"
+   ],
+   "awards": ["Shapla Cub Award 2012", "Presidents Scout Award 2016"]
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/musicobyrahamat",
+   "youtube": "https://youtube.com/@guitarukulelelearningcenter"
+  }
+ },
+ {
+  "name": "Sanjidul Islam Shihab",
+  "prefix": "Sanjidul_Islam_Shihab",
+  "bio": {
+   "role": "Kahonist",
+   "desc": "Sanjidul Islam Sihab is a passionately cultural minded person. He is currently studying in the Department of Political Science at University of Dhaka. He is a Teacher in Bangla at  Icon Plus University Admission Coaching since 2022. He has strong interest in music since childhood and has played various instruments in various stage programs.   His interest in playing Kahon/Kazon has been active since his admission in Dhaka University and since 2022 he has been playing Kahon regularly in various programs.  He is currently engaged as a Kahonist of Qaseeda Band",
+   "edu": "University of Dhaka",
+   "dept": "Political Science",
+   "birth": "15 July 2004",
+   "known": [
+    "Teacher in Bangla at Icon Plus University Admission Coaching",
+    "Kahonist of 'Band Qaseeda'"
+   ]
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/profile.php?id=100005195176549"
+  }
+ },
+ {
+  "name": "Asadullahil Galib",
+  "prefix": "Asadullahil_Galib",
+  "bio": {
+   "role": "Creative Team",
+   "edu": "University of Dhaka",
+   "dept": "Islamic History and Culture",
+   "birth": "22 December 2001",
+   "awards": [
+    "2nd Runner up (Silver Medalist), National Acting Competition 'Sherader Shera 2017'",
+    "Runner up, Cinematography Segment of the event 'TALENT FIESTA 2021'"
+   ]
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/asadullahil.galib.01",
+   "instagram": "https://www.instagram.com/asadullahil_galib_01",
+   "linkedin": "https://www.linkedin.com/in/asadullahilgalib01",
+   "youtube": "https://youtube.com/@filmsbygalib"
+  }
+ },
+ {
+  "name": "Munaoyar_Hasnaen",
+  "prefix": "Munaoyar_Hasnaen",
+  "bio": {
+   "role": "Creative Team",
+   "desc": "Munaoyar Hasnaen was born in Narsingdi and raised in Dhaka. Growing up in a cultural family, he has been inclined towards the arts from a young age. Munawar mainly works in song lyric writing, scriptwriting, and journalism. He is also highly skilled in calligraphy. He won the Best Calligrapher Award at the International Quran Calligraphy Competition in 2022. He has a deep interest in Sufi literature, mystic poetry, and spiritual writings. Additionally, he is a member of the creative team for the band 'Qaseeda'.",
+   "birth": "17 October 2005",
+   "edu": "Manarat International University",
+   "dept": "Media & Journalism",
+   "awards": ["Best Calligrapher at International Quran Calligraphy Exhibition"]
+  },
+  "social": {
+   "facebook": "https://www.facebook.com/profile.php?id=61550594803185",
+   "linkedin": "https://www.linkedin.com/in/munaoyar-hasnaen-550173307"
+  }
+ },
+ {
+  "name": "Rajjakul Islam Robi",
+  "prefix": "Rajjakul_Islam_Robi",
+  "bio": {
+   "role": "Artist",
+   "desc": "Rajjakul Islam Robi is a student of honors in music at the University of Dhaka, specializing as a vocalist. He primarily enjoys Sufi, Nazrul, classical, folk, and melodious songs, regardless of genre. He won National Award for Patriotic Song 'National Education Week 2016 & 2022'. He is a regular singer of Bangladesh Betar & Television.  Currently,  he is working with one of the most popular bands, 'Qaseeda,' as both a vocalist and harmonium player.",
+   "edu": "University of Dhaka",
+   "dept": "Music",
+   "birth": "06 February 2004",
+   "awards": [
+    "National Award for Patriotic Song 'National Education Week 2016 & 2022'",
+    "Enlisted Singer of 'Bangladesh Betar & Television'"
+   ]
+  }
+ },
+ {
+  "name": "Mohammad Sefatullah",
+  "prefix": "Mohammad_Sefatullah",
+  "bio": {
+   "role": "Chief Technology Officer",
+   "desc": "Mohammad Sefatullah is a professional full stack web developer from Bangladesh born in 2006. He dreams of becoming a software engineer and passionate coding leader. He is trying to get involved in various extra curricular activities with the vision of making a positive impact on the society.",
+   "birth": "13 September 2006",
+   "edu": "Tamirul Millat Kamil Madrasah"
+  },
+  "social": {
+   "linkedin": "https://www.linkedin.com/in/mosefatullah",
+   "github": "https://www.github.com/mosefatullah",
+   "facebook": "https://www.facebook.com/sefatullahpage",
+   "instagram": "https://www.instagram.com/mosefatullah"
+  }
+ }
 ]

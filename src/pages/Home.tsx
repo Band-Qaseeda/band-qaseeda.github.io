@@ -61,7 +61,7 @@ export default function Home() {
       </Helmet>
 
       <div className="w-full bg-[url('/images/bg.jpg')] bg-center bg-contain">
-        <div className="w-full bg-gradient-to-b lg:bg-gradient-to-t from-neutral to-neutral/40 lg:via-neutral/40 lg:to-neutral">
+        <div className="w-full bg-gradient-to-b lg:bg-gradient-to-t from-neutral to-neutral/30 lg:via-neutral/30 lg:to-neutral">
           <div className="w-full max-w-7xl mx-auto p-4 relative">
             <div className="absolute top-20 left-20 animate-pulse hidden lg:block">
               <svg
