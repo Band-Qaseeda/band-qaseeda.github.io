@@ -37,7 +37,7 @@ export const TeamID = () => {
       alt="Person"
       className="w-full max-w-[200px] aspect-square object-cover bg-primary text-neutral rounded-md"
      />
-     <h1 className="text-2xl md:text-3xl lg:text-4xl  font-bold drop-shadow mt-4">
+     <h1 className="text-2xl md:text-3xl lg:text-4xl  font-semibold drop-shadow mt-4">
       {tm?.name}
      </h1>
      <p className="text-gray-400 flex gap-1 items-center mt-1">
@@ -58,7 +58,7 @@ export const TeamID = () => {
       {tm?.bio?.role}
      </p>
     </div>
-    <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
      <div className="md:col-span-2">
       <p className="md:text-lg mt-5">
        {tm?.bio?.desc?.split("\n").map((line, index) => (
@@ -69,7 +69,7 @@ export const TeamID = () => {
        ))}
       </p>
      </div>
-     <div className="md:mt-6 h-fit p-4 border border-primary/30 bg-gray-700/35 rounded-lg grid grid-cols-[min-content_1fr] gap-y-3 gap-x-4 max-w-lg order-first lg:order-none">
+     <div className="md:mt-6 h-fit p-4 border border-primary/30 bg-gray-700/35 rounded-lg grid grid-cols-[min-content_1fr] gap-y-2 gap-x-4 max-w-lg order-first lg:order-none">
       {tm?.bio?.fullname && (
        <>
         <span className="font-medium whitespace-nowrap">Full Name:</span>
