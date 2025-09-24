@@ -233,21 +233,5 @@
     "Enlisted Singer of 'Bangladesh Betar & Television'"
    ]
   }
- },
- {
-  "name": "Mohammad Sefatullah",
-  "prefix": "Mohammad_Sefatullah",
-  "bio": {
-   "role": "Chief Technology Officer",
-   "desc": "Mohammad Sefatullah is a professional full stack web developer from Bangladesh born in 2006. He dreams of becoming a software engineer and passionate coding leader. He is trying to get involved in various extra curricular activities with the vision of making a positive impact on the society.",
-   "birth": "13 September 2006",
-   "edu": "Tamirul Millat Kamil Madrasah"
-  },
-  "social": {
-   "linkedin": "https://www.linkedin.com/in/mosefatullah",
-   "github": "https://www.github.com/mosefatullah",
-   "facebook": "https://www.facebook.com/sefatullahpage",
-   "instagram": "https://www.instagram.com/mosefatullah"
-  }
  }
 ]

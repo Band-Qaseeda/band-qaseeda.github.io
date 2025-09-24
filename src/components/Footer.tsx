@@ -18,16 +18,6 @@ export default function Footer() {
         </a>
       </div>
       <p>Copyright &copy; {new Date().getFullYear()} by Qaseeda Band.</p>
-      <p className="mt-0.5">
-        Developed by{" "}
-        <a
-          className="underline"
-          href="https://www.google.com/search?q=mohammad+sefatullah"
-          target="_blank"
-        >
-          Sefatullah
-        </a>
-      </p>
     </footer>
   );
 }
